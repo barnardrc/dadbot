@@ -8,7 +8,7 @@ An automated trading bot for the game Dark and Darker that uses computer vision 
 
 ## ⚠️ EXTREME WARNING: USE AT YOUR OWN RISK ⚠️
 
-**This project is for educational purposes only. Using this bot is a direct violation of the Dark and Darker Terms of Service and will likely result in a permanent ban of your game account.** The author of this software is not responsible for any disciplinary action taken against you. You assume all risks by downloading, running, or using this code.
+**This project is for educational purposes only. Using this bot is (probably) a direct violation of the Dark and Darker Terms of Service and will likely result in a permanent ban of your game account.** The author of this software is not responsible for any disciplinary action taken against you. You assume all risks by downloading, running, or using this code.
 
 ***
 
@@ -76,9 +76,11 @@ The bot operates as an adaptive trading agent, running through a continuous cycl
 
 ![Static screenshot of UI](assets/ui_shot.png)
 
-4.  To stop the bot, press Q, then press Exit on the UI or close the terminal window.
+4.  Monitor the bot's activity by checking the console output or by viewing the detailed logs saved in the `logs/` directory
+5.  To stop the bot, press Q, then press Exit on the UI or close the terminal window.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
