@@ -1,6 +1,6 @@
 # Dark and Darker Automated Trading Bot
 
-![Project Banner or GIF of the bot in action]
+![Animated demo of the trading bot in action](assets/demo.gif)
 
 An automated trading bot for the game Dark and Darker that uses computer vision (pytesseract) and screen automation to identify and execute profitable trades in the in-game market.
 
@@ -59,3 +59,4 @@ The bot operates in a simple loop:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
