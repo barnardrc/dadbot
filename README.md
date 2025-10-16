@@ -43,6 +43,8 @@ The bot operates as an adaptive trading agent, running through a continuous cycl
 * **Configurable & Resilient**: Built with pre-trade sanity checks to ensure it trades safely and effectively.
 * **Detailed Logging**: Keeps a comprehensive record of all actions, calculations, and errors in a dedicated log file, allowing for easy debugging and performance tracking.
 
+![Screeshot of Log](assets/log.png)
+
 ## Installation & Setup [UNDER CONSTRUCTION]
 
 1.  **Clone the repository:**
@@ -79,3 +81,4 @@ The bot operates as an adaptive trading agent, running through a continuous cycl
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
