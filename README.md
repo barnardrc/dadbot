@@ -45,8 +45,8 @@ The bot operates as an adaptive trading agent, running through a continuous cycl
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/barnardrc/dadbot.git
+    cd dadbot
     ```
 2.  **Install dependencies:**
     ```bash
@@ -77,6 +77,7 @@ The bot operates as an adaptive trading agent, running through a continuous cycl
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
