@@ -1,0 +1,29 @@
+{
+    "troll_pelt_4.png": {
+        "dimensions": [
+            2,
+            2
+        ],
+        "is_gold_storage": false,
+        "is_stackable": false,
+        "max_stack": 0
+    },
+    "gold_coin_bag_7.png": {
+        "dimensions": [
+            2,
+            2
+        ],
+        "is_gold_storage": true,
+        "is_stackable": false,
+        "max_stack": 0
+    },
+    "spectral_coinbag_7.png": {
+        "dimensions": [
+            2,
+            2
+        ],
+        "is_gold_storage": true,
+        "is_stackable": false,
+        "max_stack": 0
+    }
+}
