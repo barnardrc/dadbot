@@ -103,5 +103,5 @@ def configure_logger(
     return logger
 
 # Initialize the logger for the application
-logger = configure_logger(log_save_path=r'C:\Users\barna\OneDrive\Documents\1. Documents\01. dadbot')
+logger = configure_logger(log_save_path=r'C:\Users\barna\Documents\dadbot\logs')
 

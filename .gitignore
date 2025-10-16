@@ -12,3 +12,11 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Testing files and folders
+json_test/
+log_archive/
+training_data/
+dadbot_archive/
+img_test.py
+test.py
