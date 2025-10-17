@@ -4,6 +4,8 @@
 
 An automated trading bot for the game Dark and Darker that uses computer vision (pytesseract) and screen automation to identify and execute profitable trades in the in-game market.
 
+The bot handles the entire trading life cycle - Price calculations, sanity checking, inventory management, balance verification, item listing, and item relisting.
+
 ***
 
 ## ⚠️ EXTREME WARNING: USE AT YOUR OWN RISK ⚠️
@@ -82,5 +84,6 @@ The bot operates as an adaptive trading agent, running through a continuous cycl
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
