@@ -20,15 +20,33 @@ import keyboard
 class KeyMonitor:
     def __init__(self):
         self.stop = False
+        self.do_test = False
         
 def key_monitor(signal_object):
-    log.notice("Press 'Q' to stop early.")
+    log.notice("Press 'Q' to stop.")
     
-    keyboard.wait('q')
-    
-    signal_object.stop = True
-    log.notice("Exit input detected - Finishing process and exiting... ")
+    while not signal_object.stop:
+        event = keyboard.read_event()
+        
+        if event.event_type == keyboard.KEY_DOWN:
+            
+            if event.name == 'q':
+                signal_object.stop = True
+                log.notice("Exit input ('q') detected - Finishing process and exiting...")
+                break
 
+            elif event.name == 't':
+                # Check if the 'ctrl' key is also held down
+                if keyboard.is_pressed('ctrl'):
+                    log.notice("Hotkey 'Ctrl+T' detected.")
+                    signal_object.do_test = True
+
+    log.notice("Key monitor thread finished.")
+    
+def run_test():
+    control.move_price_down(amtToChange = 2)
+    
+    
 def bot_app(item,
              previous_item,
              amounts,
@@ -40,9 +58,10 @@ def bot_app(item,
              is_gold_storage,
              is_stackable,
              max_stack,
-             stop_signal,
+             signals,
              hasItem,
-             itemExists
+             itemExists,
+             test_env
              ):
     
     try:
@@ -60,24 +79,28 @@ def bot_app(item,
                                  is_gold_storage,
                                  is_stackable,
                                  max_stack,
-                                 stop_signal
+                                 signals
                                  )
             
             control.start_sequence(hasItem, itemExists)
             
         else:
             control.restart_sequence()
-        
-        # initial balance check
-        (failedAttempts, balanceCheckTracker, timeToSell, lostProfit,
-         maxKeysBuyable, didSell) = control.balance_check(
-        )
-             
-        #Begin control loops
-        control.buy_sell(
-            maxKeysBuyable = maxKeysBuyable
+
+        if not test_env:
+            # initial balance check
+            (failedAttempts, balanceCheckTracker, timeToSell, lostProfit,
+             maxKeysBuyable, didSell) = control.balance_check(
             )
-    
+                
+            #Begin control loops
+            control.buy_sell(
+                maxKeysBuyable = maxKeysBuyable
+                )
+            
+        elif test_env:
+            run_test()
+            
     except ExitException:
         log.notice("Exit complete!")
     
@@ -85,7 +108,7 @@ def bot_app(item,
         log.error(f"An error occured during execution: {e}", exc_info = True)
     
 def main():
-    stop_signal = KeyMonitor()
+    signals = KeyMonitor()
     root = tk.Tk()
     
     log.setLevel('DEBUG')
@@ -96,7 +119,7 @@ def main():
         
         # Keyboard monitoring thread
         monitor_thread = threading.Thread(target=key_monitor,
-                                          args = (stop_signal,),
+                                          args = (signals,),
                                           daemon = True
                                           )
         
@@ -111,16 +134,21 @@ def main():
         
         # Start UI
         app_manager = start_ui(root, bot_start_callback = bot_app,
-                               stop_signal = stop_signal)
+                               signals = signals)
     
     except Exception as e:
         log.error(f"An error occured during execution: {e}", exc_info = True)
 
-if __name__ == "__main__":
-    main()
+
 
 """ ##########################################################################
     
 # ---------------- TEST --------------- #
 
 ########################################################################## """
+
+def vision_test():
+    control.vision_test()
+
+if __name__ == "__main__":
+    vision_test()

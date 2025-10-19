@@ -1,0 +1,321 @@
+05:44:33 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:44:38 PM [INFO] [control_loops]: Running update_max_stash.
+05:44:38 PM [INFO] [control_loops]: Max Stash: 36000
+05:44:51 PM [INFO] [control_loops]: Balance check: 31853
+05:46:28 PM [INFO] [control_loops]: No buys were attempted for 125 refreshes...
+05:46:28 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+05:46:30 PM [INFO] [control_loops]: Balance check: 31853
+05:46:30 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+05:48:28 PM [INFO] [control_loops]: No buys were attempted for 150 refreshes...
+05:48:28 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+05:48:30 PM [INFO] [control_loops]: Balance check: 31853
+05:48:30 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+05:50:46 PM [INFO] [control_loops]: No buys were attempted for 175 refreshes...
+05:50:46 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+05:50:49 PM [INFO] [control_loops]: Balance check: 31853
+05:50:49 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+05:53:23 PM [INFO] [control_loops]: No buys were attempted for 200 refreshes...
+05:53:23 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+05:53:26 PM [INFO] [control_loops]: Balance check: 31853
+05:53:26 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+05:54:42 PM [INFO] [control_loops]: A buy sequence was executed at 4999 after 94 refreshes.
+05:54:44 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+05:54:46 PM [INFO] [control_loops]: Balance check: 26854
+05:54:46 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+05:54:46 PM [INFO] [control_loops]: Buy: 4999
+05:54:52 PM [INFO] [control_loops]: Sell: 5335
+05:57:45 PM [INFO] [control_loops]: No buys were attempted for 225 refreshes...
+05:57:45 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+05:57:47 PM [INFO] [control_loops]: Balance check: 26588
+05:57:47 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:01:00 PM [INFO] [control_loops]: No buys were attempted for 250 refreshes...
+06:01:00 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:01:02 PM [INFO] [control_loops]: Balance check: 26588
+06:01:02 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:04:34 PM [INFO] [control_loops]: No buys were attempted for 275 refreshes...
+06:04:34 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:04:37 PM [INFO] [control_loops]: Balance check: 26588
+06:04:37 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:12:32 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+06:12:34 PM [INFO] [control_loops]: Running update_max_stash.
+06:12:34 PM [INFO] [control_loops]: Max Stash: 36000
+06:12:46 PM [INFO] [control_loops]: Balance check: 26588
+06:12:57 PM [INFO] [control_loops]: A buy sequence was executed at 5000 after 10 refreshes.
+06:12:59 PM [INFO] [control_loops]: Rolling Avg Buy Time: 0 minute(s)
+06:13:01 PM [INFO] [control_loops]: Balance check: 21588
+06:13:01 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:13:01 PM [INFO] [control_loops]: Buy: 5000
+06:13:07 PM [INFO] [control_loops]: Sell: 5328
+06:14:44 PM [INFO] [control_loops]: No buys were attempted for 125 refreshes...
+06:14:44 PM [INFO] [control_loops]: Rolling Avg Buy Time: 0 minute(s)
+06:14:46 PM [INFO] [control_loops]: Balance check: 21322
+06:14:46 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:16:43 PM [INFO] [control_loops]: No buys were attempted for 150 refreshes...
+06:16:43 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:16:46 PM [INFO] [control_loops]: Balance check: 21322
+06:16:46 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:19:02 PM [INFO] [control_loops]: No buys were attempted for 175 refreshes...
+06:19:02 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:19:04 PM [INFO] [control_loops]: Balance check: 21322
+06:19:04 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:21:39 PM [INFO] [control_loops]: No buys were attempted for 200 refreshes...
+06:21:39 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:21:42 PM [INFO] [control_loops]: Balance check: 21322
+06:21:42 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:24:35 PM [INFO] [control_loops]: No buys were attempted for 225 refreshes...
+06:24:35 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:24:38 PM [INFO] [control_loops]: Balance check: 21322
+06:24:38 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:27:51 PM [INFO] [control_loops]: No buys were attempted for 250 refreshes...
+06:27:51 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:27:54 PM [INFO] [control_loops]: Balance check: 21322
+06:27:54 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:31:26 PM [INFO] [control_loops]: No buys were attempted for 275 refreshes...
+06:31:26 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:31:28 PM [INFO] [control_loops]: Balance check: 21322
+06:31:28 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:35:19 PM [INFO] [control_loops]: No buys were attempted for 300 refreshes...
+06:35:19 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+06:35:22 PM [INFO] [control_loops]: Balance check: 21322
+06:35:22 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:39:31 PM [INFO] [control_loops]: No buys were attempted for 325 refreshes...
+06:39:31 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+06:39:33 PM [INFO] [control_loops]: Balance check: 21322
+06:39:33 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:44:01 PM [INFO] [control_loops]: No buys were attempted for 350 refreshes...
+06:44:01 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+06:44:04 PM [INFO] [control_loops]: Balance check: 21322
+06:44:04 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:48:51 PM [INFO] [control_loops]: No buys were attempted for 375 refreshes...
+06:48:51 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+06:48:53 PM [INFO] [control_loops]: Balance check: 21322
+06:48:53 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:53:59 PM [INFO] [control_loops]: No buys were attempted for 400 refreshes...
+06:53:59 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+06:54:02 PM [INFO] [control_loops]: Balance check: 21322
+06:54:02 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:58:18 PM [INFO] [control_loops]: A buy sequence was executed at 4800 after 333 refreshes.
+06:58:20 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+06:58:22 PM [INFO] [control_loops]: Balance check: 16522
+06:58:22 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:58:22 PM [INFO] [control_loops]: Buy: 4800
+06:58:28 PM [INFO] [control_loops]: Sell: 5300
+06:58:32 PM [INFO] [control_loops]: A buy sequence was executed at 4800 after 1 refreshes.
+06:58:34 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+06:58:36 PM [INFO] [control_loops]: Balance check: 11457
+06:58:36 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:58:36 PM [INFO] [control_loops]: Buy: 4800
+06:58:42 PM [INFO] [control_loops]: Sell: 5300
+07:03:48 PM [INFO] [control_loops]: No buys were attempted for 400 refreshes...
+07:03:48 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+07:03:50 PM [INFO] [control_loops]: Balance check: 11192
+07:03:50 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:08:37 PM [INFO] [control_loops]: No buys were attempted for 375 refreshes...
+07:08:37 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:08:40 PM [INFO] [control_loops]: Balance check: 11192
+07:08:40 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:13:46 PM [INFO] [control_loops]: No buys were attempted for 400 refreshes...
+07:13:46 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:13:48 PM [INFO] [control_loops]: Balance check: 11192
+07:13:48 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:18:42 PM [INFO] [control_loops]: A buy sequence was executed at 4900 after 382 refreshes.
+07:18:43 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:18:46 PM [INFO] [control_loops]: Balance check: 6292
+07:18:46 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:18:46 PM [INFO] [control_loops]: Buy: 4900
+07:18:51 PM [INFO] [control_loops]: Sell: 5231
+07:24:15 PM [INFO] [control_loops]: No buys were attempted for 425 refreshes...
+07:24:15 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:24:17 PM [INFO] [control_loops]: Balance check: 6031
+07:24:27 PM [INFO] [control_loops]: Sell: 5231
+07:24:27 PM [INFO] [control_loops]: Balance check: 21862
+07:24:27 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:29:33 PM [INFO] [control_loops]: No buys were attempted for 400 refreshes...
+07:29:33 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:29:36 PM [INFO] [control_loops]: Balance check: 21862
+07:29:36 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:34:44 PM [INFO] [control_loops]: A buy sequence was executed at 5000 after 402 refreshes.
+07:34:46 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:34:48 PM [INFO] [control_loops]: Balance check: 16862
+07:34:48 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:34:48 PM [INFO] [control_loops]: Buy: 5000
+07:34:58 PM [INFO] [control_loops]: Sell: 5412
+07:37:28 PM [INFO] [control_loops]: A buy sequence was executed at 4999 after 193 refreshes.
+07:37:29 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:37:32 PM [INFO] [control_loops]: Balance check: 22256
+07:37:32 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:38:40 PM [INFO] [control_loops]: A buy sequence was executed at 5000 after 86 refreshes.
+07:38:42 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:38:44 PM [INFO] [control_loops]: Balance check: 17256
+07:38:44 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:38:44 PM [INFO] [control_loops]: Buy: 5000
+07:38:52 PM [INFO] [control_loops]: Sell: 5412
+07:40:47 PM [INFO] [control_loops]: A buy sequence was executed at 5000 after 148 refreshes.
+07:40:49 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+07:40:51 PM [INFO] [control_loops]: Balance check: 1716
+07:40:56 PM [INFO] [control_loops]: Have waited for 1 minutes...
+07:41:56 PM [INFO] [control_loops]: Balance check: 11446
+07:41:56 PM [INFO] [control_loops]: It took 1 minute(s) for items to sell.
+07:41:56 PM [INFO] [control_loops]: Buy: 5000
+07:42:00 PM [INFO] [control_loops]: Sell: 5412
+07:47:44 PM [INFO] [control_loops]: No buys were attempted for 450 refreshes...
+07:47:44 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+07:47:46 PM [INFO] [control_loops]: Balance check: 11446
+07:47:46 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:47:48 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+07:53:49 PM [INFO] [control_loops]: No buys were attempted for 475 refreshes...
+07:53:49 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+07:53:51 PM [INFO] [control_loops]: Balance check: 11446
+07:53:51 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:53:53 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+07:56:45 PM [INFO] [control_loops]: A buy sequence was executed at 4999 after 223 refreshes.
+07:56:46 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+07:56:49 PM [INFO] [control_loops]: Balance check: 6447
+07:56:49 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+07:56:49 PM [INFO] [control_loops]: Buy: 4999
+07:56:55 PM [INFO] [control_loops]: Sell: 5334
+08:03:15 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:03:15 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+08:03:18 PM [INFO] [control_loops]: Balance check: 6181
+08:03:23 PM [INFO] [control_loops]: Sell: 5334
+08:03:23 PM [INFO] [control_loops]: Balance check: 11515
+08:03:23 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:09:44 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:09:44 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+08:09:47 PM [INFO] [control_loops]: Balance check: 11515
+08:09:47 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:09:49 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+08:16:08 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:16:08 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+08:16:11 PM [INFO] [control_loops]: Balance check: 11515
+08:16:11 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:22:32 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:22:32 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+08:22:34 PM [INFO] [control_loops]: Balance check: 11515
+08:22:34 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:28:55 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:28:55 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+08:28:58 PM [INFO] [control_loops]: Balance check: 11515
+08:28:58 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:35:19 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:35:19 PM [INFO] [control_loops]: Rolling Avg Buy Time: 4 minute(s)
+08:35:21 PM [INFO] [control_loops]: Balance check: 11515
+08:35:21 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:41:43 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:41:43 PM [INFO] [control_loops]: Rolling Avg Buy Time: 4 minute(s)
+08:41:45 PM [INFO] [control_loops]: Balance check: 11515
+08:41:45 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:46:10 PM [INFO] [control_loops]: A buy sequence was executed at 4700 after 344 refreshes.
+08:46:12 PM [INFO] [control_loops]: Rolling Avg Buy Time: 4 minute(s)
+08:46:14 PM [INFO] [control_loops]: Balance check: 6815
+08:46:14 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+08:46:14 PM [INFO] [control_loops]: Buy: 4700
+08:46:20 PM [INFO] [control_loops]: Sell: 5028
+08:51:49 PM [INFO] [control_loops]: A buy sequence was executed at 4700 after 430 refreshes.
+08:51:50 PM [INFO] [control_loops]: Rolling Avg Buy Time: 4 minute(s)
+08:51:53 PM [INFO] [control_loops]: Balance check: 1864
+08:51:57 PM [INFO] [control_loops]: Have waited for 1 minutes...
+08:52:57 PM [INFO] [control_loops]: Balance check: 1613
+08:53:00 PM [INFO] [control_loops]: Have waited for 2 minutes...
+08:54:00 PM [INFO] [control_loops]: Balance check: 1613
+08:54:03 PM [INFO] [control_loops]: Have waited for 3 minutes...
+08:55:03 PM [INFO] [control_loops]: Balance check: 1613
+08:55:06 PM [INFO] [control_loops]: Have waited for 4 minutes...
+08:56:06 PM [INFO] [control_loops]: Balance check: 1613
+08:56:08 PM [INFO] [control_loops]: Have waited for 5 minutes...
+08:57:08 PM [INFO] [control_loops]: Balance check: 1613
+08:57:11 PM [INFO] [control_loops]: Have waited for 6 minutes...
+08:58:11 PM [INFO] [control_loops]: Balance check: 1613
+08:58:14 PM [INFO] [control_loops]: Have waited for 7 minutes...
+08:59:14 PM [INFO] [control_loops]: Balance check: 1613
+08:59:16 PM [INFO] [control_loops]: Have waited for 8 minutes...
+09:00:17 PM [INFO] [control_loops]: Balance check: 1613
+09:00:19 PM [INFO] [control_loops]: Have waited for 9 minutes...
+09:01:19 PM [INFO] [control_loops]: Balance check: 1613
+09:01:24 PM [INFO] [control_loops]: Price did not need to move.
+09:01:24 PM [INFO] [control_loops]: Balance check: -1
+09:01:27 PM [INFO] [control_loops]: Balance check: -1
+09:01:29 PM [INFO] [control_loops]: Balance check: -1
+09:01:32 PM [INFO] [control_loops]: Balance check: -1
+09:01:35 PM [INFO] [control_loops]: Balance check: -1
+09:01:38 PM [INFO] [control_loops]: Balance check: -1
+09:01:40 PM [INFO] [control_loops]: Balance check: 1613
+09:01:43 PM [INFO] [control_loops]: Have waited for 11 minutes...
+09:02:43 PM [INFO] [control_loops]: Balance check: 1613
+09:02:46 PM [INFO] [control_loops]: Have waited for 12 minutes...
+09:03:46 PM [INFO] [control_loops]: Balance check: 1613
+09:03:48 PM [INFO] [control_loops]: Have waited for 13 minutes...
+09:04:49 PM [INFO] [control_loops]: Balance check: 1613
+09:04:51 PM [INFO] [control_loops]: Have waited for 14 minutes...
+09:05:51 PM [INFO] [control_loops]: Balance check: 1613
+09:05:54 PM [INFO] [control_loops]: Have waited for 15 minutes...
+09:06:54 PM [INFO] [control_loops]: Balance check: 1613
+09:06:57 PM [INFO] [control_loops]: Have waited for 16 minutes...
+09:07:57 PM [INFO] [control_loops]: Balance check: 1613
+09:07:59 PM [INFO] [control_loops]: Have waited for 17 minutes...
+09:09:00 PM [INFO] [control_loops]: Balance check: 1613
+09:09:02 PM [INFO] [control_loops]: Have waited for 18 minutes...
+09:10:02 PM [INFO] [control_loops]: Balance check: 1613
+09:10:05 PM [INFO] [control_loops]: Have waited for 19 minutes...
+09:11:05 PM [INFO] [control_loops]: Balance check: 1613
+09:11:09 PM [INFO] [control_loops]: Moving price down.
+09:11:17 PM [INFO] [control_loops]: Balance check: 1377
+09:11:20 PM [INFO] [control_loops]: Have waited for 21 minutes...
+09:12:20 PM [INFO] [control_loops]: Balance check: 1377
+09:12:23 PM [INFO] [control_loops]: Have waited for 22 minutes...
+09:13:23 PM [INFO] [control_loops]: Balance check: 1377
+09:13:25 PM [INFO] [control_loops]: Have waited for 23 minutes...
+09:14:25 PM [INFO] [control_loops]: Balance check: 1377
+09:14:28 PM [INFO] [control_loops]: Have waited for 24 minutes...
+09:15:28 PM [INFO] [control_loops]: Balance check: 1377
+09:15:31 PM [INFO] [control_loops]: Have waited for 25 minutes...
+09:16:31 PM [INFO] [control_loops]: Balance check: 1377
+09:16:34 PM [INFO] [control_loops]: Have waited for 26 minutes...
+09:17:34 PM [INFO] [control_loops]: Balance check: 1377
+09:17:36 PM [INFO] [control_loops]: Have waited for 27 minutes...
+09:18:36 PM [INFO] [control_loops]: Balance check: 1377
+09:18:39 PM [INFO] [control_loops]: Have waited for 28 minutes...
+09:19:39 PM [INFO] [control_loops]: Balance check: 1377
+09:19:45 PM [INFO] [control_loops]: Sell: 4732
+09:19:45 PM [INFO] [control_loops]: Balance check: -1
+09:19:49 PM [INFO] [control_loops]: Balance check: -1
+09:19:51 PM [INFO] [control_loops]: Balance check: 6109
+09:19:51 PM [INFO] [control_loops]: It took 26 minute(s) for items to sell.
+09:19:51 PM [INFO] [control_loops]: Buy: 4700
+09:19:55 PM [INFO] [control_loops]: Sell: 5028
+09:22:39 PM [INFO] [control_loops]: A buy sequence was executed at 4250 after 210 refreshes.
+09:22:41 PM [INFO] [control_loops]: Rolling Avg Buy Time: 4 minute(s)
+09:22:43 PM [INFO] [control_loops]: Balance check: 1859
+09:22:48 PM [INFO] [control_loops]: Have waited for 1 minutes...
+09:23:48 PM [INFO] [control_loops]: Balance check: 1612
+09:23:51 PM [INFO] [control_loops]: Have waited for 2 minutes...
+09:24:51 PM [INFO] [control_loops]: Balance check: 1612
+09:24:53 PM [INFO] [control_loops]: Have waited for 3 minutes...
+09:25:54 PM [INFO] [control_loops]: Balance check: 1612
+09:25:56 PM [INFO] [control_loops]: Have waited for 4 minutes...
+09:26:56 PM [INFO] [control_loops]: Balance check: 1612
+09:26:59 PM [INFO] [control_loops]: Have waited for 5 minutes...
+09:27:59 PM [INFO] [control_loops]: Balance check: 1612
+09:28:02 PM [INFO] [control_loops]: Have waited for 6 minutes...
+09:29:02 PM [INFO] [control_loops]: Balance check: 1612
+09:29:05 PM [INFO] [control_loops]: Have waited for 7 minutes...
+09:30:05 PM [INFO] [control_loops]: Balance check: 1612
+09:30:07 PM [INFO] [control_loops]: Have waited for 8 minutes...
+09:31:08 PM [INFO] [control_loops]: Balance check: 1612
+09:31:10 PM [INFO] [control_loops]: Have waited for 9 minutes...
+09:32:10 PM [INFO] [control_loops]: Balance check: 1612
+09:32:15 PM [INFO] [control_loops]: Moving price down.
+09:32:23 PM [INFO] [control_loops]: Balance check: 1597
+09:32:23 PM [INFO] [control_loops]: It took 9 minute(s) for items to sell.
+09:32:23 PM [INFO] [control_loops]: Buy: 4250
+09:32:28 PM [INFO] [control_loops]: Sell: 4949
+09:32:31 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+09:32:31 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+09:32:31 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+09:32:43 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+09:32:43 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+09:32:43 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object

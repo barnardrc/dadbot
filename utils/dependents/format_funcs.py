@@ -62,6 +62,13 @@ def price_formatter(p) -> int:
     
     return price
 
+def new_market_data_formatter(times, totals, stacked_prices, priceCat = None) -> dict():
+    tll = []
+    priceList = []
+    timeList = []
+    
+    
+
 # Takes string from vision function of times and prices on market page and
 # converts them to a defaultdict
 def market_data_formatter(d, priceCat = None) -> dict():
@@ -85,7 +92,9 @@ def market_data_formatter(d, priceCat = None) -> dict():
             # Price gathering search
             line = line.replace(',', '')
             price = re.search(priceExpression, line)
+            log.debug(f"Price search returns: {price}")
             price = price.group(2)
+            log.debug(f"Group 2 in search: {price}")
             if len(price) > 5:
                 priceList.append(int(price[1:]))
                 
@@ -170,6 +179,19 @@ def format_item_for_img_loc(item: str, rarity: int = None):
     if rarity is not None:
         item = item + '_' + str(rarity)
     return item + '.png'
+
+# Takes formatted item (from json or for saving) and adds banner for banner
+# locating
+def format_item_for_banner_loc(item: str):
+    if item[-4:] == '.png':
+        parts = item.split('.')
+        formatted_item = parts[0] + '_banner.' + parts[1]
+    elif '.' not in item:
+        formatted_item = item + '_banner' + '.png'
+    else:
+        raise ValueError("Cannot format item for listing detection!")
+    log.debug(f"formatting item: {formatted_item}")
+    return formatted_item
 
 def format_item_for_scrape(item_name):
     try:

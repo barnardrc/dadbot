@@ -24,8 +24,9 @@ class DataCapture(Screen):
         Screen.__init__(self)
         current_dir = pathlib.Path(__file__).parent
         
-        self.pytConfig = "--psm 6 -c tessedit_char_whitelist=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        self.pytConfig = "-c tessedit_char_whitelist=0123456789dhmx.,"
         self.imgs_loc = current_dir / 'item_images'
+        self.banners_loc = current_dir / 'banner_images'
         
         # [Top, Left, Width, Height]
         self.inventory_region_ratios = [0.574, 0.751, 0.216, 0.192]
@@ -45,8 +46,8 @@ class DataCapture(Screen):
     def get_text(self, sct_img):
         # Extract text
         try:
-            text = pyt.image_to_string(sct_img)
-            #log.debug(text)
+            text = pyt.image_to_string(sct_img, config=self.pytConfig)
+            log.debug(text)
             
         except Exception as e:
             log.error(f"OCR failed: {e}")
@@ -100,10 +101,13 @@ class DataCapture(Screen):
             log.debug(f"Item img saved to {self.imgs_loc}")
         
         if ocr:
-            return self.get_text(img)
+            return self.get_text(img)    
     
-    def check_item_img(self):
-        pass
+    def find_first_item_listed(self, item: str):
+        item_loc = self.banners_loc / item
+        item_loc = str(item_loc)
+        item_coords = pag.locateCenterOnScreen(item_loc, confidence = 0.7)
+        return item_coords
     
     def get_item_img(self, item: str, dims: tuple):
         w, h = self.inv_slot_dim_ratios
@@ -116,10 +120,27 @@ class DataCapture(Screen):
         region_ratios = [top, left, width, height]
         
         self.get_capture_region(region_ratios = region_ratios, save_name = item)
+
+    def get_prices_stackable(self, ocr = True):
+        log.notice("Running get_prices.")
+        stacked_region_ratios = [0.308, 0.834, 0.045, 0.591]
+        totals_region_ratios = [0.308, 0.775, 0.041, 0.591]
+        times_region_ratios = [0.308, 0.663, 0.060, 0.591]
+        
+        stacked_prices = self.get_capture_region(region_ratios = stacked_region_ratios, ocr = ocr)
+        totals = self.get_capture_region(region_ratios = totals_region_ratios, ocr = ocr)
+        times = self.get_capture_region(region_ratios = times_region_ratios, ocr = ocr, save_name = 'data_testing')
+        
+
+        print(f"Raw Data from OCR:\n{stacked_prices}")
+        print(f"Raw Data from OCR:\n{totals}")
+        print(f"Raw Data from OCR:\n{times}")
+        
+        return times, totals, stacked_prices
         
     def get_prices(self, ocr = True):
         log.notice("Running get_prices.")
-        region_ratios = [0.308, 0.640, 0.393, 0.591]
+        region_ratios = [0.308, 0.640, 0.260, 0.591]
         d = self.get_capture_region(region_ratios = region_ratios, ocr = ocr)
         
         return d
@@ -176,13 +197,7 @@ class DataCapture(Screen):
         
         img_loc = self.imgs_loc / item
         img_loc = str(img_loc) + '.png'
-        #ratios = self.inventory_region_ratios
-        
-        #top = int(ratios[0] * self.winy)
-        #left = int(ratios[1] * self.winx)
-        #width = int(ratios[2] * self.winx)
-        #height = int(ratios[3] * self.winy)
-        
+
         inSlotList = pag.locateAllOnScreen(img_loc, confidence = 0.9)
         
         if inSlotList is not None:
@@ -191,47 +206,10 @@ class DataCapture(Screen):
             return []
 
     def free_spaces_check(self):
+        img_loc = self.banners_loc / 'list_item_banner.png'
+
+        img_loc = str(img_loc)
         
-        freeSpaces = 0
-        rejectedColors = [29, 30, 31, 32]
+        allSpaces = pag.locateAllOnScreen(img_loc, confidence = 0.7)
         
-        with mss.mss() as sct:
-            # Get information of monitor 2
-            monitor_number = MON_NUM
-            mon = sct.monitors[monitor_number]
-            
-            count = 0
-            for i in range(
-                           int(self.winy * 0.495),
-                           int(self.winy * 0.938),
-                           int(self.winy * 0.047)
-                           ):
-                
-                # The distance between mkt boxes is not constant
-                count += 1
-                if count > 4:
-                    i -= 10
-                # The screen part to capture
-                monitor = {
-                    "top": i,
-                    "left": int(self.winx * 0.0390625),
-                    "width": 1,
-                    "height": 1,
-                    "mon": monitor_number,
-                }
-                output = "sell_check-mon{mon}_{top}x{left}_{width}x{height}.png".format(**monitor)
-            
-                # Grab the data
-                sct_img = sct.grab(monitor)
-            
-                # Save to the picture file
-                img = Image.frombytes("RGB", sct_img.size, sct_img.rgb)
-        
-                color = img.getcolors()
-                
-                img.close()
-                
-                if color[0][1][0] in rejectedColors:
-                    freeSpaces += 1
-            
-        return freeSpaces
+        return allSpaces

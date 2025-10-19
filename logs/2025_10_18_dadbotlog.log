@@ -1,0 +1,1042 @@
+11:46:26 AM [INFO] [dadbot]: 
+
+-----Start new Session-----
+11:47:50 AM [INFO] [control_loops]: Running update_max_stash.
+11:47:50 AM [INFO] [control_loops]: Max Stash: 36000
+11:48:04 AM [INFO] [control_loops]: Balance check: 3297
+11:48:06 AM [INFO] [control_loops]: Have waited for 1 minutes...
+11:49:06 AM [INFO] [control_loops]: Balance check: 3297
+11:49:09 AM [INFO] [control_loops]: Have waited for 2 minutes...
+11:50:09 AM [INFO] [control_loops]: Balance check: 3297
+11:50:12 AM [INFO] [control_loops]: Have waited for 3 minutes...
+11:51:12 AM [INFO] [control_loops]: Balance check: 3297
+11:51:14 AM [INFO] [control_loops]: Have waited for 4 minutes...
+11:52:15 AM [INFO] [control_loops]: Balance check: 3297
+11:52:17 AM [INFO] [control_loops]: Have waited for 5 minutes...
+11:53:17 AM [INFO] [control_loops]: Balance check: 3297
+11:53:20 AM [INFO] [control_loops]: Have waited for 6 minutes...
+11:54:20 AM [INFO] [control_loops]: Balance check: 3297
+11:54:23 AM [INFO] [control_loops]: Have waited for 7 minutes...
+11:55:23 AM [INFO] [control_loops]: Balance check: 3297
+11:55:25 AM [INFO] [control_loops]: Have waited for 8 minutes...
+11:56:26 AM [INFO] [control_loops]: Balance check: 3297
+11:56:28 AM [INFO] [control_loops]: Have waited for 9 minutes...
+11:57:28 AM [INFO] [control_loops]: Balance check: 3297
+11:57:33 AM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+11:57:33 AM [INFO] [control_loops]: Price did not need to move.
+11:57:33 AM [INFO] [control_loops]: Balance check: -1
+11:57:36 AM [INFO] [control_loops]: Balance check: -1
+11:57:39 AM [INFO] [control_loops]: Balance check: -1
+11:57:41 AM [INFO] [control_loops]: Balance check: -1
+11:57:44 AM [INFO] [control_loops]: Balance check: -1
+11:57:47 AM [INFO] [control_loops]: Balance check: -1
+11:57:50 AM [INFO] [control_loops]: Balance check: -1
+11:57:52 AM [INFO] [control_loops]: Balance check: 3297
+11:57:55 AM [INFO] [control_loops]: Have waited for 11 minutes...
+11:58:55 AM [INFO] [control_loops]: Balance check: 3297
+11:58:58 AM [INFO] [control_loops]: Have waited for 12 minutes...
+11:59:58 AM [INFO] [control_loops]: Balance check: 3297
+12:00:01 PM [INFO] [control_loops]: Have waited for 13 minutes...
+12:01:01 PM [INFO] [control_loops]: Balance check: 3297
+12:01:03 PM [INFO] [control_loops]: Have waited for 14 minutes...
+12:02:03 PM [INFO] [control_loops]: Balance check: 3297
+12:02:06 PM [INFO] [control_loops]: Have waited for 15 minutes...
+12:03:06 PM [INFO] [control_loops]: Balance check: 3297
+12:03:09 PM [INFO] [control_loops]: Have waited for 16 minutes...
+12:04:09 PM [INFO] [control_loops]: Balance check: 3297
+12:04:12 PM [INFO] [control_loops]: Have waited for 17 minutes...
+12:05:12 PM [INFO] [control_loops]: Balance check: 3297
+12:05:14 PM [INFO] [control_loops]: Have waited for 18 minutes...
+12:06:15 PM [INFO] [control_loops]: Balance check: 3297
+12:06:17 PM [INFO] [control_loops]: Have waited for 19 minutes...
+12:07:17 PM [INFO] [control_loops]: Balance check: 3297
+12:07:22 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+12:07:22 PM [INFO] [control_loops]: Price did not need to move.
+12:07:22 PM [INFO] [control_loops]: Balance check: -1
+12:07:25 PM [INFO] [control_loops]: Balance check: 732974
+12:09:40 PM [INFO] [control_loops]: No buys were attempted for 175 refreshes...
+12:09:40 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+12:09:42 PM [INFO] [control_loops]: Balance check: 3297
+12:09:45 PM [INFO] [control_loops]: Have waited for 1 minutes...
+12:10:45 PM [INFO] [control_loops]: Balance check: 3297
+12:10:48 PM [INFO] [control_loops]: Have waited for 2 minutes...
+12:11:48 PM [INFO] [control_loops]: Balance check: 3297
+12:11:50 PM [INFO] [control_loops]: Have waited for 3 minutes...
+12:12:50 PM [INFO] [control_loops]: Balance check: 3297
+12:12:53 PM [INFO] [control_loops]: Have waited for 4 minutes...
+12:13:53 PM [INFO] [control_loops]: Balance check: 3297
+12:13:56 PM [INFO] [control_loops]: Have waited for 5 minutes...
+12:14:56 PM [INFO] [control_loops]: Balance check: 3297
+12:14:59 PM [INFO] [control_loops]: Have waited for 6 minutes...
+12:15:59 PM [INFO] [control_loops]: Balance check: 3297
+12:16:01 PM [INFO] [control_loops]: Have waited for 7 minutes...
+12:17:01 PM [INFO] [control_loops]: Balance check: 3297
+12:17:04 PM [INFO] [control_loops]: Have waited for 8 minutes...
+12:18:04 PM [INFO] [control_loops]: Balance check: 3297
+12:18:07 PM [INFO] [control_loops]: Have waited for 9 minutes...
+12:19:07 PM [INFO] [control_loops]: Balance check: 3297
+12:19:12 PM [INFO] [control_loops]: Price did not need to move.
+12:19:12 PM [INFO] [control_loops]: Balance check: -1
+12:19:14 PM [INFO] [control_loops]: Balance check: -1
+12:19:17 PM [INFO] [control_loops]: Balance check: -1
+12:19:20 PM [INFO] [control_loops]: Balance check: -1
+12:19:23 PM [INFO] [control_loops]: Balance check: -1
+12:19:25 PM [INFO] [control_loops]: Balance check: -1
+12:19:28 PM [INFO] [control_loops]: Balance check: -1
+12:19:31 PM [INFO] [control_loops]: Balance check: 3297
+12:19:34 PM [INFO] [control_loops]: Have waited for 11 minutes...
+12:20:34 PM [INFO] [control_loops]: Balance check: 3297
+12:20:36 PM [INFO] [control_loops]: Have waited for 12 minutes...
+12:21:37 PM [INFO] [control_loops]: Balance check: 3297
+12:21:39 PM [INFO] [control_loops]: Have waited for 13 minutes...
+12:22:39 PM [INFO] [control_loops]: Balance check: 3297
+12:22:42 PM [INFO] [control_loops]: Have waited for 14 minutes...
+12:23:42 PM [INFO] [control_loops]: Balance check: 3297
+12:23:45 PM [INFO] [control_loops]: Have waited for 15 minutes...
+12:24:45 PM [INFO] [control_loops]: Balance check: 3297
+12:24:48 PM [INFO] [control_loops]: Have waited for 16 minutes...
+12:25:48 PM [INFO] [control_loops]: Balance check: 3297
+12:25:50 PM [INFO] [control_loops]: Have waited for 17 minutes...
+12:26:50 PM [INFO] [control_loops]: Balance check: 3297
+12:26:53 PM [INFO] [control_loops]: Have waited for 18 minutes...
+12:27:53 PM [INFO] [control_loops]: Balance check: 3297
+12:27:56 PM [INFO] [control_loops]: Have waited for 19 minutes...
+12:28:56 PM [INFO] [control_loops]: Balance check: 3297
+12:29:01 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+12:29:01 PM [INFO] [control_loops]: Price did not need to move.
+12:29:01 PM [INFO] [control_loops]: Balance check: -1
+12:29:03 PM [INFO] [control_loops]: Balance check: 732974
+12:29:03 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+12:29:05 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+12:31:39 PM [INFO] [control_loops]: No buys were attempted for 200 refreshes...
+12:31:39 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+12:31:42 PM [INFO] [control_loops]: Balance check: 3297
+12:31:44 PM [INFO] [control_loops]: Have waited for 1 minutes...
+12:32:44 PM [INFO] [control_loops]: Balance check: 3297
+12:32:47 PM [INFO] [control_loops]: Have waited for 2 minutes...
+12:33:47 PM [INFO] [control_loops]: Balance check: 3297
+12:33:50 PM [INFO] [control_loops]: Have waited for 3 minutes...
+12:34:50 PM [INFO] [control_loops]: Balance check: 3297
+12:34:53 PM [INFO] [control_loops]: Have waited for 4 minutes...
+12:35:53 PM [INFO] [control_loops]: Balance check: 3297
+12:35:55 PM [INFO] [control_loops]: Have waited for 5 minutes...
+12:36:56 PM [INFO] [control_loops]: Balance check: 3297
+12:36:58 PM [INFO] [control_loops]: Have waited for 6 minutes...
+12:37:58 PM [INFO] [control_loops]: Balance check: 3297
+12:38:01 PM [INFO] [control_loops]: Have waited for 7 minutes...
+12:39:01 PM [INFO] [control_loops]: Balance check: 3297
+12:39:04 PM [INFO] [control_loops]: Have waited for 8 minutes...
+12:40:04 PM [INFO] [control_loops]: Balance check: 3297
+12:40:07 PM [INFO] [control_loops]: Have waited for 9 minutes...
+12:41:07 PM [INFO] [control_loops]: Balance check: 3297
+12:41:11 PM [INFO] [control_loops]: Price did not need to move.
+12:41:11 PM [INFO] [control_loops]: Balance check: -1
+12:41:14 PM [INFO] [control_loops]: Balance check: -1
+12:41:17 PM [INFO] [control_loops]: Balance check: -1
+12:41:20 PM [INFO] [control_loops]: Balance check: -1
+12:41:22 PM [INFO] [control_loops]: Balance check: -1
+12:41:25 PM [INFO] [control_loops]: Balance check: -1
+12:41:28 PM [INFO] [control_loops]: Balance check: -1
+12:41:31 PM [INFO] [control_loops]: Balance check: 3297
+12:41:34 PM [INFO] [control_loops]: Have waited for 11 minutes...
+12:42:34 PM [INFO] [control_loops]: Balance check: 3297
+12:42:36 PM [INFO] [control_loops]: Have waited for 12 minutes...
+12:43:36 PM [INFO] [control_loops]: Balance check: 3297
+12:43:39 PM [INFO] [control_loops]: Have waited for 13 minutes...
+12:44:39 PM [INFO] [control_loops]: Balance check: 3297
+12:44:42 PM [INFO] [control_loops]: Have waited for 14 minutes...
+12:45:42 PM [INFO] [control_loops]: Balance check: 3297
+12:45:45 PM [INFO] [control_loops]: Have waited for 15 minutes...
+12:46:45 PM [INFO] [control_loops]: Balance check: 3297
+12:46:47 PM [INFO] [control_loops]: Have waited for 16 minutes...
+12:47:47 PM [INFO] [control_loops]: Balance check: 3297
+12:47:50 PM [INFO] [control_loops]: Have waited for 17 minutes...
+12:48:50 PM [INFO] [control_loops]: Balance check: 3297
+12:48:53 PM [INFO] [control_loops]: Have waited for 18 minutes...
+12:49:53 PM [INFO] [control_loops]: Balance check: 3297
+12:49:56 PM [INFO] [control_loops]: Have waited for 19 minutes...
+12:50:56 PM [INFO] [control_loops]: Balance check: 3297
+12:51:00 PM [INFO] [control_loops]: Price did not need to move.
+12:51:00 PM [INFO] [control_loops]: Balance check: -1
+12:51:03 PM [INFO] [control_loops]: Balance check: 732974
+12:51:03 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+12:51:33 PM [INFO] [control_loops]: A buy sequence was executed at 4499 after 33 refreshes.
+12:51:35 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+12:51:37 PM [INFO] [control_loops]: Balance check: 3297
+12:51:40 PM [INFO] [control_loops]: Have waited for 1 minutes...
+12:52:40 PM [INFO] [control_loops]: Balance check: 3297
+12:52:43 PM [INFO] [control_loops]: Have waited for 2 minutes...
+12:53:43 PM [INFO] [control_loops]: Balance check: 3297
+12:53:45 PM [INFO] [control_loops]: Have waited for 3 minutes...
+12:54:45 PM [INFO] [control_loops]: Balance check: 3297
+12:54:48 PM [INFO] [control_loops]: Have waited for 4 minutes...
+12:55:48 PM [INFO] [control_loops]: Balance check: 3297
+12:55:51 PM [INFO] [control_loops]: Have waited for 5 minutes...
+12:56:51 PM [INFO] [control_loops]: Balance check: 3297
+12:56:54 PM [INFO] [control_loops]: Have waited for 6 minutes...
+12:57:54 PM [INFO] [control_loops]: Balance check: 3297
+12:57:56 PM [INFO] [control_loops]: Have waited for 7 minutes...
+12:58:56 PM [INFO] [control_loops]: Balance check: 3297
+12:58:59 PM [INFO] [control_loops]: Have waited for 8 minutes...
+12:59:59 PM [INFO] [control_loops]: Balance check: 3297
+01:00:02 PM [INFO] [control_loops]: Have waited for 9 minutes...
+01:01:02 PM [INFO] [control_loops]: Balance check: 3297
+01:01:06 PM [INFO] [control_loops]: Price did not need to move.
+01:01:07 PM [INFO] [control_loops]: Balance check: -1
+01:01:09 PM [INFO] [control_loops]: Balance check: -1
+01:01:12 PM [INFO] [control_loops]: Balance check: -1
+01:01:15 PM [INFO] [control_loops]: Balance check: -1
+01:01:17 PM [INFO] [control_loops]: Balance check: -1
+01:01:20 PM [INFO] [control_loops]: Balance check: -1
+01:01:23 PM [INFO] [control_loops]: Balance check: -1
+01:01:26 PM [INFO] [control_loops]: Balance check: 3297
+01:01:28 PM [INFO] [control_loops]: Have waited for 11 minutes...
+01:02:28 PM [INFO] [control_loops]: Balance check: 3297
+01:02:31 PM [INFO] [control_loops]: Have waited for 12 minutes...
+01:03:31 PM [INFO] [control_loops]: Balance check: 3297
+01:03:34 PM [INFO] [control_loops]: Have waited for 13 minutes...
+01:04:34 PM [INFO] [control_loops]: Balance check: 3297
+01:04:37 PM [INFO] [control_loops]: Have waited for 14 minutes...
+01:05:37 PM [INFO] [control_loops]: Balance check: 3297
+01:05:39 PM [INFO] [control_loops]: Have waited for 15 minutes...
+01:06:39 PM [INFO] [control_loops]: Balance check: 3297
+01:06:42 PM [INFO] [control_loops]: Have waited for 16 minutes...
+01:07:42 PM [INFO] [control_loops]: Balance check: 3297
+01:07:45 PM [INFO] [control_loops]: Have waited for 17 minutes...
+01:08:45 PM [INFO] [control_loops]: Balance check: 3297
+01:08:48 PM [INFO] [control_loops]: Have waited for 18 minutes...
+01:09:48 PM [INFO] [control_loops]: Balance check: 3297
+01:09:50 PM [INFO] [control_loops]: Have waited for 19 minutes...
+01:10:51 PM [INFO] [control_loops]: Balance check: 3297
+01:10:55 PM [INFO] [control_loops]: Price did not need to move.
+01:10:55 PM [INFO] [control_loops]: Balance check: -1
+01:10:58 PM [INFO] [control_loops]: Balance check: 732974
+01:10:58 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+01:13:48 PM [INFO] [control_loops]: A buy sequence was executed at 4600 after 218 refreshes.
+01:13:50 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+01:13:52 PM [INFO] [control_loops]: Balance check: 3297
+01:13:55 PM [INFO] [control_loops]: Have waited for 1 minutes...
+01:14:55 PM [INFO] [control_loops]: Balance check: 3297
+01:14:58 PM [INFO] [control_loops]: Have waited for 2 minutes...
+01:15:58 PM [INFO] [control_loops]: Balance check: 3297
+01:16:01 PM [INFO] [control_loops]: Have waited for 3 minutes...
+01:17:01 PM [INFO] [control_loops]: Balance check: 3297
+01:17:03 PM [INFO] [control_loops]: Have waited for 4 minutes...
+01:18:03 PM [INFO] [control_loops]: Balance check: 3297
+01:18:06 PM [INFO] [control_loops]: Have waited for 5 minutes...
+01:19:06 PM [INFO] [control_loops]: Balance check: 3297
+01:19:09 PM [INFO] [control_loops]: Have waited for 6 minutes...
+01:20:09 PM [INFO] [control_loops]: Balance check: 3297
+01:20:11 PM [INFO] [control_loops]: Have waited for 7 minutes...
+01:21:12 PM [INFO] [control_loops]: Balance check: 3297
+01:21:14 PM [INFO] [control_loops]: Have waited for 8 minutes...
+01:22:14 PM [INFO] [control_loops]: Balance check: 3297
+01:22:17 PM [INFO] [control_loops]: Have waited for 9 minutes...
+01:23:17 PM [INFO] [control_loops]: Balance check: 3297
+01:23:22 PM [INFO] [control_loops]: Price did not need to move.
+01:23:22 PM [INFO] [control_loops]: Balance check: -1
+01:23:24 PM [INFO] [control_loops]: Balance check: -1
+01:23:27 PM [INFO] [control_loops]: Balance check: -1
+01:23:30 PM [INFO] [control_loops]: Balance check: -1
+01:23:33 PM [INFO] [control_loops]: Balance check: -1
+01:23:35 PM [INFO] [control_loops]: Balance check: -1
+01:23:38 PM [INFO] [control_loops]: Balance check: -1
+01:23:41 PM [INFO] [control_loops]: Balance check: 3297
+01:23:44 PM [INFO] [control_loops]: Have waited for 11 minutes...
+01:24:44 PM [INFO] [control_loops]: Balance check: 3297
+01:24:46 PM [INFO] [control_loops]: Have waited for 12 minutes...
+01:25:47 PM [INFO] [control_loops]: Balance check: 3297
+01:25:49 PM [INFO] [control_loops]: Have waited for 13 minutes...
+01:26:49 PM [INFO] [control_loops]: Balance check: 3297
+01:26:52 PM [INFO] [control_loops]: Have waited for 14 minutes...
+01:27:52 PM [INFO] [control_loops]: Balance check: 3297
+01:27:55 PM [INFO] [control_loops]: Have waited for 15 minutes...
+01:28:55 PM [INFO] [control_loops]: Balance check: 3297
+01:28:57 PM [INFO] [control_loops]: Have waited for 16 minutes...
+01:29:58 PM [INFO] [control_loops]: Balance check: 3297
+01:30:00 PM [INFO] [control_loops]: Have waited for 17 minutes...
+01:31:00 PM [INFO] [control_loops]: Balance check: 3297
+01:31:03 PM [INFO] [control_loops]: Have waited for 18 minutes...
+01:32:03 PM [INFO] [control_loops]: Balance check: 3297
+01:32:06 PM [INFO] [control_loops]: Have waited for 19 minutes...
+01:33:06 PM [INFO] [control_loops]: Balance check: 3297
+01:33:10 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+01:33:10 PM [INFO] [control_loops]: Price did not need to move.
+01:33:10 PM [INFO] [control_loops]: Balance check: -1
+01:33:13 PM [INFO] [control_loops]: Balance check: 732974
+01:33:13 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+01:33:15 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+01:35:16 PM [INFO] [control_loops]: A buy sequence was executed at 4500 after 155 refreshes.
+01:35:18 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+01:35:20 PM [INFO] [control_loops]: Balance check: 3297
+01:35:23 PM [INFO] [control_loops]: Have waited for 1 minutes...
+01:36:23 PM [INFO] [control_loops]: Balance check: 3297
+01:36:26 PM [INFO] [control_loops]: Have waited for 2 minutes...
+01:37:26 PM [INFO] [control_loops]: Balance check: 3297
+01:37:28 PM [INFO] [control_loops]: Have waited for 3 minutes...
+01:38:28 PM [INFO] [control_loops]: Balance check: 3297
+01:38:31 PM [INFO] [control_loops]: Have waited for 4 minutes...
+01:39:31 PM [INFO] [control_loops]: Balance check: 3297
+01:39:34 PM [INFO] [control_loops]: Have waited for 5 minutes...
+01:40:34 PM [INFO] [control_loops]: Balance check: 3297
+01:40:37 PM [INFO] [control_loops]: Have waited for 6 minutes...
+01:41:37 PM [INFO] [control_loops]: Balance check: 3297
+01:41:39 PM [INFO] [control_loops]: Have waited for 7 minutes...
+01:42:39 PM [INFO] [control_loops]: Balance check: 3297
+01:42:42 PM [INFO] [control_loops]: Have waited for 8 minutes...
+01:43:42 PM [INFO] [control_loops]: Balance check: 3297
+01:43:45 PM [INFO] [control_loops]: Have waited for 9 minutes...
+01:44:45 PM [INFO] [control_loops]: Balance check: 3297
+01:44:49 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+01:44:49 PM [INFO] [control_loops]: Moving price down.
+01:44:52 PM [ERROR] [control_loops]: move_price_down: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 442, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 110, in find_first_item_listed
+    item_loc = pag.locateCenterOnScreen(item, confidence = 0.7)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+01:44:52 PM [INFO] [control_loops]: Balance check: 3297
+01:44:55 PM [INFO] [control_loops]: Have waited for 11 minutes...
+01:45:55 PM [INFO] [control_loops]: Balance check: 3297
+01:45:57 PM [INFO] [control_loops]: Have waited for 12 minutes...
+01:46:57 PM [INFO] [control_loops]: Balance check: 3297
+01:47:00 PM [INFO] [control_loops]: Have waited for 13 minutes...
+01:48:00 PM [INFO] [control_loops]: Balance check: 3297
+01:48:03 PM [INFO] [control_loops]: Have waited for 14 minutes...
+01:49:03 PM [INFO] [control_loops]: Balance check: 3297
+01:49:06 PM [INFO] [control_loops]: Have waited for 15 minutes...
+01:50:06 PM [INFO] [control_loops]: Balance check: 3297
+01:50:08 PM [INFO] [control_loops]: Have waited for 16 minutes...
+01:51:08 PM [INFO] [control_loops]: Balance check: 3297
+01:51:11 PM [INFO] [control_loops]: Have waited for 17 minutes...
+01:52:11 PM [INFO] [control_loops]: Balance check: 3297
+01:52:14 PM [INFO] [control_loops]: Have waited for 18 minutes...
+01:53:14 PM [INFO] [control_loops]: Balance check: 3297
+01:53:17 PM [INFO] [control_loops]: Have waited for 19 minutes...
+01:54:17 PM [INFO] [control_loops]: Balance check: 3297
+01:54:21 PM [INFO] [control_loops]: Price did not need to move.
+01:54:21 PM [INFO] [control_loops]: Balance check: -1
+01:54:24 PM [INFO] [control_loops]: Balance check: -1
+01:54:27 PM [INFO] [control_loops]: Balance check: -1
+01:54:30 PM [INFO] [control_loops]: Balance check: -1
+01:54:32 PM [INFO] [control_loops]: Balance check: -1
+01:54:35 PM [INFO] [control_loops]: Balance check: -1
+01:54:38 PM [INFO] [control_loops]: Balance check: -1
+01:54:41 PM [INFO] [control_loops]: Balance check: 3297
+01:54:43 PM [INFO] [control_loops]: Have waited for 21 minutes...
+01:55:43 PM [INFO] [control_loops]: Balance check: 3297
+01:55:46 PM [INFO] [control_loops]: Have waited for 22 minutes...
+01:56:46 PM [INFO] [control_loops]: Balance check: 3297
+01:56:49 PM [INFO] [control_loops]: Have waited for 23 minutes...
+01:57:49 PM [INFO] [control_loops]: Balance check: 3297
+01:57:52 PM [INFO] [control_loops]: Have waited for 24 minutes...
+01:58:52 PM [INFO] [control_loops]: Balance check: 3297
+01:58:54 PM [INFO] [control_loops]: Have waited for 25 minutes...
+01:59:54 PM [INFO] [control_loops]: Balance check: 3297
+01:59:57 PM [INFO] [control_loops]: Have waited for 26 minutes...
+02:00:57 PM [INFO] [control_loops]: Balance check: 3297
+02:01:00 PM [INFO] [control_loops]: Have waited for 27 minutes...
+02:02:00 PM [INFO] [control_loops]: Balance check: 3297
+02:02:03 PM [INFO] [control_loops]: Have waited for 28 minutes...
+02:03:03 PM [INFO] [control_loops]: Balance check: 3297
+02:03:05 PM [INFO] [control_loops]: Have waited for 29 minutes...
+02:04:05 PM [INFO] [control_loops]: Balance check: 3297
+02:04:10 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:04:10 PM [INFO] [control_loops]: Price did not need to move.
+02:04:10 PM [INFO] [control_loops]: Balance check: -1
+02:04:13 PM [INFO] [control_loops]: Balance check: 732974
+02:04:13 PM [INFO] [control_loops]: It took 27 minute(s) for items to sell.
+02:04:15 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:09:00 PM [INFO] [control_loops]: No buys were attempted for 375 refreshes...
+02:09:00 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:09:03 PM [INFO] [control_loops]: Balance check: 3297
+02:09:05 PM [INFO] [control_loops]: Have waited for 1 minutes...
+02:10:05 PM [INFO] [control_loops]: Balance check: 3297
+02:10:08 PM [INFO] [control_loops]: Have waited for 2 minutes...
+02:11:08 PM [INFO] [control_loops]: Balance check: 3297
+02:11:11 PM [INFO] [control_loops]: Have waited for 3 minutes...
+02:12:11 PM [INFO] [control_loops]: Balance check: 3297
+02:12:14 PM [INFO] [control_loops]: Have waited for 4 minutes...
+02:13:14 PM [INFO] [control_loops]: Balance check: 3297
+02:13:16 PM [INFO] [control_loops]: Have waited for 5 minutes...
+02:14:16 PM [INFO] [control_loops]: Balance check: 3297
+02:14:19 PM [INFO] [control_loops]: Have waited for 6 minutes...
+02:15:19 PM [INFO] [control_loops]: Balance check: 3297
+02:15:22 PM [INFO] [control_loops]: Have waited for 7 minutes...
+02:16:22 PM [INFO] [control_loops]: Balance check: 3297
+02:16:25 PM [INFO] [control_loops]: Have waited for 8 minutes...
+02:17:25 PM [INFO] [control_loops]: Balance check: 3297
+02:17:27 PM [INFO] [control_loops]: Have waited for 9 minutes...
+02:18:27 PM [INFO] [control_loops]: Balance check: 3297
+02:18:32 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:18:32 PM [INFO] [control_loops]: Moving price down.
+02:18:34 PM [ERROR] [control_loops]: move_price_down: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 442, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 110, in find_first_item_listed
+    item_loc = pag.locateCenterOnScreen(item, confidence = 0.7)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+02:18:34 PM [INFO] [control_loops]: Balance check: 3297
+02:18:37 PM [INFO] [control_loops]: Have waited for 11 minutes...
+02:19:37 PM [INFO] [control_loops]: Balance check: 3297
+02:19:40 PM [INFO] [control_loops]: Have waited for 12 minutes...
+02:20:40 PM [INFO] [control_loops]: Balance check: 3297
+02:20:43 PM [INFO] [control_loops]: Have waited for 13 minutes...
+02:21:43 PM [INFO] [control_loops]: Balance check: 3297
+02:21:45 PM [INFO] [control_loops]: Have waited for 14 minutes...
+02:22:45 PM [INFO] [control_loops]: Balance check: 3297
+02:22:48 PM [INFO] [control_loops]: Have waited for 15 minutes...
+02:23:48 PM [INFO] [control_loops]: Balance check: 3297
+02:23:51 PM [INFO] [control_loops]: Have waited for 16 minutes...
+02:24:51 PM [INFO] [control_loops]: Balance check: 3297
+02:24:54 PM [INFO] [control_loops]: Have waited for 17 minutes...
+02:25:54 PM [INFO] [control_loops]: Balance check: 3297
+02:25:56 PM [INFO] [control_loops]: Have waited for 18 minutes...
+02:26:56 PM [INFO] [control_loops]: Balance check: 3297
+02:26:59 PM [INFO] [control_loops]: Have waited for 19 minutes...
+02:27:59 PM [INFO] [control_loops]: Balance check: 3297
+02:28:04 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:28:04 PM [INFO] [control_loops]: Price did not need to move.
+02:28:04 PM [INFO] [control_loops]: Balance check: -1
+02:28:06 PM [INFO] [control_loops]: Balance check: -1
+02:28:09 PM [INFO] [control_loops]: Balance check: -1
+02:28:12 PM [INFO] [control_loops]: Balance check: -1
+02:28:15 PM [INFO] [control_loops]: Balance check: -1
+02:28:17 PM [INFO] [control_loops]: Balance check: -1
+02:28:20 PM [INFO] [control_loops]: Balance check: -1
+02:28:23 PM [INFO] [control_loops]: Balance check: 3297
+02:28:25 PM [INFO] [control_loops]: Have waited for 21 minutes...
+02:29:25 PM [INFO] [control_loops]: Balance check: 3297
+02:29:28 PM [INFO] [control_loops]: Have waited for 22 minutes...
+02:30:28 PM [INFO] [control_loops]: Balance check: 3297
+02:30:31 PM [INFO] [control_loops]: Have waited for 23 minutes...
+02:31:31 PM [INFO] [control_loops]: Balance check: 3297
+02:31:34 PM [INFO] [control_loops]: Have waited for 24 minutes...
+02:32:34 PM [INFO] [control_loops]: Balance check: 3297
+02:32:36 PM [INFO] [control_loops]: Have waited for 25 minutes...
+02:33:37 PM [INFO] [control_loops]: Balance check: 3297
+02:33:39 PM [INFO] [control_loops]: Have waited for 26 minutes...
+02:34:39 PM [INFO] [control_loops]: Balance check: 3297
+02:34:42 PM [INFO] [control_loops]: Have waited for 27 minutes...
+02:35:42 PM [INFO] [control_loops]: Balance check: 3297
+02:35:45 PM [INFO] [control_loops]: Have waited for 28 minutes...
+02:36:45 PM [INFO] [control_loops]: Balance check: 3297
+02:36:48 PM [INFO] [control_loops]: Have waited for 29 minutes...
+02:37:48 PM [INFO] [control_loops]: Balance check: 3297
+02:37:52 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:37:52 PM [INFO] [control_loops]: Price did not need to move.
+02:37:52 PM [INFO] [control_loops]: Balance check: -1
+02:37:55 PM [INFO] [control_loops]: Balance check: 732974
+02:37:55 PM [INFO] [control_loops]: It took 27 minute(s) for items to sell.
+02:37:57 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:42:05 PM [INFO] [control_loops]: No buys were attempted for 325 refreshes...
+02:42:05 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+02:42:07 PM [INFO] [control_loops]: Balance check: 3297
+02:42:10 PM [INFO] [control_loops]: Have waited for 1 minutes...
+02:43:10 PM [INFO] [control_loops]: Balance check: 3297
+02:43:13 PM [INFO] [control_loops]: Have waited for 2 minutes...
+02:44:13 PM [INFO] [control_loops]: Balance check: 3297
+02:44:16 PM [INFO] [control_loops]: Have waited for 3 minutes...
+02:45:16 PM [INFO] [control_loops]: Balance check: 3297
+02:45:18 PM [INFO] [control_loops]: Have waited for 4 minutes...
+02:46:19 PM [INFO] [control_loops]: Balance check: 3297
+02:46:21 PM [INFO] [control_loops]: Have waited for 5 minutes...
+02:47:21 PM [INFO] [control_loops]: Balance check: 3297
+02:47:24 PM [INFO] [control_loops]: Have waited for 6 minutes...
+02:48:24 PM [INFO] [control_loops]: Balance check: 3297
+02:48:27 PM [INFO] [control_loops]: Have waited for 7 minutes...
+02:49:27 PM [INFO] [control_loops]: Balance check: 3297
+02:49:29 PM [INFO] [control_loops]: Have waited for 8 minutes...
+02:50:30 PM [INFO] [control_loops]: Balance check: 3297
+02:50:32 PM [INFO] [control_loops]: Have waited for 9 minutes...
+02:51:32 PM [INFO] [control_loops]: Balance check: 3297
+02:51:37 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:51:37 PM [INFO] [control_loops]: Moving price down.
+02:51:39 PM [ERROR] [control_loops]: move_price_down: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 442, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 110, in find_first_item_listed
+    item_loc = pag.locateCenterOnScreen(item, confidence = 0.7)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+02:51:39 PM [INFO] [control_loops]: Balance check: 3297
+02:51:42 PM [INFO] [control_loops]: Have waited for 11 minutes...
+02:52:42 PM [INFO] [control_loops]: Balance check: 3297
+02:52:45 PM [INFO] [control_loops]: Have waited for 12 minutes...
+02:53:45 PM [INFO] [control_loops]: Balance check: 3297
+02:53:48 PM [INFO] [control_loops]: Have waited for 13 minutes...
+02:54:48 PM [INFO] [control_loops]: Balance check: 3297
+02:54:50 PM [INFO] [control_loops]: Have waited for 14 minutes...
+02:55:50 PM [INFO] [control_loops]: Balance check: 3297
+02:55:53 PM [INFO] [control_loops]: Have waited for 15 minutes...
+02:56:53 PM [INFO] [control_loops]: Balance check: 3297
+02:56:56 PM [INFO] [control_loops]: Have waited for 16 minutes...
+02:57:56 PM [INFO] [control_loops]: Balance check: 3297
+02:57:59 PM [INFO] [control_loops]: Have waited for 17 minutes...
+02:58:59 PM [INFO] [control_loops]: Balance check: 3297
+02:59:01 PM [INFO] [control_loops]: Have waited for 18 minutes...
+03:00:01 PM [INFO] [control_loops]: Balance check: 3297
+03:00:04 PM [INFO] [control_loops]: Have waited for 19 minutes...
+03:01:04 PM [INFO] [control_loops]: Balance check: 3297
+03:01:09 PM [INFO] [control_loops]: Price did not need to move.
+03:01:09 PM [INFO] [control_loops]: Balance check: -1
+03:01:12 PM [INFO] [control_loops]: Balance check: -1
+03:01:15 PM [INFO] [control_loops]: Balance check: -1
+03:01:17 PM [INFO] [control_loops]: Balance check: -1
+03:01:20 PM [INFO] [control_loops]: Balance check: -1
+03:01:23 PM [INFO] [control_loops]: Balance check: -1
+03:01:26 PM [INFO] [control_loops]: Balance check: -1
+03:01:28 PM [INFO] [control_loops]: Balance check: 3297
+03:01:31 PM [INFO] [control_loops]: Have waited for 21 minutes...
+03:02:31 PM [INFO] [control_loops]: Balance check: 3297
+03:02:34 PM [INFO] [control_loops]: Have waited for 22 minutes...
+03:03:34 PM [INFO] [control_loops]: Balance check: 3297
+03:03:37 PM [INFO] [control_loops]: Have waited for 23 minutes...
+03:04:37 PM [INFO] [control_loops]: Balance check: 3297
+03:04:39 PM [INFO] [control_loops]: Have waited for 24 minutes...
+03:05:39 PM [INFO] [control_loops]: Balance check: 3297
+03:05:42 PM [INFO] [control_loops]: Have waited for 25 minutes...
+03:06:42 PM [INFO] [control_loops]: Balance check: 3297
+03:06:45 PM [INFO] [control_loops]: Have waited for 26 minutes...
+03:07:45 PM [INFO] [control_loops]: Balance check: 3297
+03:07:47 PM [INFO] [control_loops]: Have waited for 27 minutes...
+03:08:48 PM [INFO] [control_loops]: Balance check: 3297
+03:08:50 PM [INFO] [control_loops]: Have waited for 28 minutes...
+03:09:50 PM [INFO] [control_loops]: Balance check: 3297
+03:09:53 PM [INFO] [control_loops]: Have waited for 29 minutes...
+03:10:53 PM [INFO] [control_loops]: Balance check: 3297
+03:10:58 PM [INFO] [control_loops]: Price did not need to move.
+03:10:58 PM [INFO] [control_loops]: Balance check: -1
+03:11:01 PM [INFO] [control_loops]: Balance check: 732974
+03:11:01 PM [INFO] [control_loops]: It took 27 minute(s) for items to sell.
+03:15:10 PM [INFO] [control_loops]: No buys were attempted for 325 refreshes...
+03:15:10 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+03:15:12 PM [INFO] [control_loops]: Balance check: 3297
+03:15:15 PM [INFO] [control_loops]: Have waited for 1 minutes...
+03:16:15 PM [INFO] [control_loops]: Balance check: 3297
+03:16:18 PM [INFO] [control_loops]: Have waited for 2 minutes...
+03:17:18 PM [INFO] [control_loops]: Balance check: 3297
+03:17:21 PM [INFO] [control_loops]: Have waited for 3 minutes...
+03:18:21 PM [INFO] [control_loops]: Balance check: 3297
+03:18:23 PM [INFO] [control_loops]: Have waited for 4 minutes...
+03:19:23 PM [INFO] [control_loops]: Balance check: 3297
+03:19:26 PM [INFO] [control_loops]: Have waited for 5 minutes...
+03:20:26 PM [INFO] [control_loops]: Balance check: 3297
+03:20:29 PM [INFO] [control_loops]: Have waited for 6 minutes...
+03:21:29 PM [INFO] [control_loops]: Balance check: 3297
+03:21:32 PM [INFO] [control_loops]: Have waited for 7 minutes...
+03:22:32 PM [INFO] [control_loops]: Balance check: 3297
+03:22:34 PM [INFO] [control_loops]: Have waited for 8 minutes...
+03:23:34 PM [INFO] [control_loops]: Balance check: 3297
+03:23:37 PM [INFO] [control_loops]: Have waited for 9 minutes...
+03:24:37 PM [INFO] [control_loops]: Balance check: 3297
+03:24:42 PM [INFO] [control_loops]: Moving price down.
+03:24:44 PM [ERROR] [control_loops]: move_price_down: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 442, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 110, in find_first_item_listed
+    item_loc = pag.locateCenterOnScreen(item, confidence = 0.7)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+03:24:44 PM [INFO] [control_loops]: Balance check: 3297
+03:24:47 PM [INFO] [control_loops]: Have waited for 11 minutes...
+03:25:47 PM [INFO] [control_loops]: Balance check: 3297
+03:25:50 PM [INFO] [control_loops]: Have waited for 12 minutes...
+03:26:50 PM [INFO] [control_loops]: Balance check: 3297
+03:26:52 PM [INFO] [control_loops]: Have waited for 13 minutes...
+03:27:52 PM [INFO] [control_loops]: Balance check: 3297
+03:27:55 PM [INFO] [control_loops]: Have waited for 14 minutes...
+03:28:55 PM [INFO] [control_loops]: Balance check: 3297
+03:28:58 PM [INFO] [control_loops]: Have waited for 15 minutes...
+03:29:58 PM [INFO] [control_loops]: Balance check: 3297
+03:30:01 PM [INFO] [control_loops]: Have waited for 16 minutes...
+03:31:01 PM [INFO] [control_loops]: Balance check: 3297
+03:31:03 PM [INFO] [control_loops]: Have waited for 17 minutes...
+03:32:03 PM [INFO] [control_loops]: Balance check: 3297
+03:32:06 PM [INFO] [control_loops]: Have waited for 18 minutes...
+03:33:06 PM [INFO] [control_loops]: Balance check: 3297
+03:33:09 PM [INFO] [control_loops]: Have waited for 19 minutes...
+03:34:09 PM [INFO] [control_loops]: Balance check: 3297
+03:34:13 PM [INFO] [control_loops]: Price did not need to move.
+03:34:13 PM [INFO] [control_loops]: Balance check: -1
+03:34:16 PM [INFO] [control_loops]: Balance check: -1
+03:34:19 PM [INFO] [control_loops]: Balance check: -1
+03:34:22 PM [INFO] [control_loops]: Balance check: -1
+03:34:24 PM [INFO] [control_loops]: Balance check: -1
+03:34:27 PM [INFO] [control_loops]: Balance check: -1
+03:34:30 PM [INFO] [control_loops]: Balance check: -1
+03:34:33 PM [INFO] [control_loops]: Balance check: 3297
+03:34:35 PM [INFO] [control_loops]: Have waited for 21 minutes...
+03:35:36 PM [INFO] [control_loops]: Balance check: 3297
+03:35:38 PM [INFO] [control_loops]: Have waited for 22 minutes...
+03:36:38 PM [INFO] [control_loops]: Balance check: 3297
+03:36:41 PM [INFO] [control_loops]: Have waited for 23 minutes...
+03:37:41 PM [INFO] [control_loops]: Balance check: 3297
+03:37:44 PM [INFO] [control_loops]: Have waited for 24 minutes...
+03:38:44 PM [INFO] [control_loops]: Balance check: 3297
+03:38:46 PM [INFO] [control_loops]: Have waited for 25 minutes...
+03:39:47 PM [INFO] [control_loops]: Balance check: 3297
+03:39:49 PM [INFO] [control_loops]: Have waited for 26 minutes...
+03:40:49 PM [INFO] [control_loops]: Balance check: 3297
+03:40:52 PM [INFO] [control_loops]: Have waited for 27 minutes...
+03:41:52 PM [INFO] [control_loops]: Balance check: 3297
+03:41:55 PM [INFO] [control_loops]: Have waited for 28 minutes...
+03:42:55 PM [INFO] [control_loops]: Balance check: 3297
+03:42:57 PM [INFO] [control_loops]: Have waited for 29 minutes...
+03:43:58 PM [INFO] [control_loops]: Balance check: 3297
+03:44:02 PM [INFO] [control_loops]: Moving price down.
+03:44:04 PM [ERROR] [control_loops]: move_price_down: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 442, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 110, in find_first_item_listed
+    item_loc = pag.locateCenterOnScreen(item, confidence = 0.7)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+03:44:05 PM [INFO] [control_loops]: Balance check: 3297
+03:44:07 PM [INFO] [control_loops]: Have waited for 31 minutes...
+03:45:07 PM [INFO] [control_loops]: Balance check: 3297
+03:45:10 PM [INFO] [control_loops]: Have waited for 32 minutes...
+03:46:10 PM [INFO] [control_loops]: Balance check: 3297
+03:46:13 PM [INFO] [control_loops]: Have waited for 33 minutes...
+03:47:13 PM [INFO] [control_loops]: Balance check: 3297
+03:47:15 PM [INFO] [control_loops]: Have waited for 34 minutes...
+03:48:16 PM [INFO] [control_loops]: Balance check: 3297
+03:48:18 PM [INFO] [control_loops]: Have waited for 35 minutes...
+03:49:18 PM [INFO] [control_loops]: Balance check: 3297
+03:49:21 PM [INFO] [control_loops]: Have waited for 36 minutes...
+03:50:21 PM [INFO] [control_loops]: Balance check: 3297
+03:50:24 PM [INFO] [control_loops]: Have waited for 37 minutes...
+03:51:24 PM [INFO] [control_loops]: Balance check: 3297
+03:51:26 PM [INFO] [control_loops]: Have waited for 38 minutes...
+03:52:27 PM [INFO] [control_loops]: Balance check: 3297
+03:52:29 PM [INFO] [control_loops]: Have waited for 39 minutes...
+03:53:29 PM [INFO] [control_loops]: Balance check: 3297
+03:53:34 PM [INFO] [control_loops]: Price did not need to move.
+03:53:34 PM [INFO] [control_loops]: Balance check: -1
+03:53:37 PM [INFO] [control_loops]: Balance check: 732974
+03:53:37 PM [INFO] [control_loops]: It took 36 minute(s) for items to sell.
+03:56:50 PM [INFO] [control_loops]: No buys were attempted for 250 refreshes...
+03:56:50 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+03:56:52 PM [INFO] [control_loops]: Balance check: 3297
+03:56:55 PM [INFO] [control_loops]: Have waited for 1 minutes...
+03:57:55 PM [INFO] [control_loops]: Balance check: 3297
+03:57:58 PM [INFO] [control_loops]: Have waited for 2 minutes...
+03:58:58 PM [INFO] [control_loops]: Balance check: 3297
+03:59:01 PM [INFO] [control_loops]: Have waited for 3 minutes...
+04:00:01 PM [INFO] [control_loops]: Balance check: 3297
+04:00:03 PM [INFO] [control_loops]: Have waited for 4 minutes...
+04:01:03 PM [INFO] [control_loops]: Balance check: 3297
+04:01:06 PM [INFO] [control_loops]: Have waited for 5 minutes...
+04:02:06 PM [INFO] [control_loops]: Balance check: 3297
+04:02:09 PM [INFO] [control_loops]: Have waited for 6 minutes...
+04:03:09 PM [INFO] [control_loops]: Balance check: 3297
+04:03:12 PM [INFO] [control_loops]: Have waited for 7 minutes...
+04:04:12 PM [INFO] [control_loops]: Balance check: 3297
+04:04:14 PM [INFO] [control_loops]: Have waited for 8 minutes...
+04:05:14 PM [INFO] [control_loops]: Balance check: 3297
+04:05:17 PM [INFO] [control_loops]: Have waited for 9 minutes...
+04:06:17 PM [INFO] [control_loops]: Balance check: 3297
+04:06:22 PM [INFO] [control_loops]: Price did not need to move.
+04:06:22 PM [INFO] [control_loops]: Balance check: -1
+04:06:25 PM [INFO] [control_loops]: Balance check: -1
+04:06:27 PM [INFO] [control_loops]: Balance check: -1
+04:06:30 PM [INFO] [control_loops]: Balance check: -1
+04:06:33 PM [INFO] [control_loops]: Balance check: -1
+04:06:36 PM [INFO] [control_loops]: Balance check: -1
+04:06:38 PM [INFO] [control_loops]: Balance check: -1
+04:06:41 PM [INFO] [control_loops]: Balance check: 3297
+04:06:44 PM [INFO] [control_loops]: Have waited for 11 minutes...
+04:07:44 PM [INFO] [control_loops]: Balance check: 3297
+04:07:46 PM [INFO] [control_loops]: Have waited for 12 minutes...
+04:08:46 PM [INFO] [control_loops]: Balance check: 3297
+04:08:49 PM [INFO] [control_loops]: Have waited for 13 minutes...
+04:09:49 PM [INFO] [control_loops]: Balance check: 3297
+04:09:52 PM [INFO] [control_loops]: Have waited for 14 minutes...
+04:10:52 PM [INFO] [control_loops]: Balance check: -1
+04:10:55 PM [INFO] [control_loops]: Balance check: 732974
+04:10:55 PM [INFO] [control_loops]: It took 13 minute(s) for items to sell.
+04:39:32 PM [ERROR] [control_loops]: move_price_down: MarketCalc.__init__() missing 2 required positional arguments: 'data' and 'priceCatBypass'
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 426, in move_price_down
+    priceCat = MarketCalc().get_price_category()
+               ^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\dependents\calc_funcs.py", line 15, in __call__
+    cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MarketCalc.__init__() missing 2 required positional arguments: 'data' and 'priceCatBypass'
+04:40:12 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+04:58:35 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+04:58:35 PM [ERROR] [dadbot]: An error occured during execution: 'UIManager' object has no attribute 'test_button_action'
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\dadbot.py", line 127, in main
+    app_manager = start_ui(root, bot_start_callback = bot_app,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\ui.py", line 219, in start_ui
+    ui = UIManager(root, bot_start_callback, stop_signal)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\ui.py", line 29, in __init__
+    self._build_ui()
+  File "C:\Users\barna\Documents\dadbot\ui.py", line 61, in _build_ui
+    self._create_buttons()
+  File "C:\Users\barna\Documents\dadbot\ui.py", line 101, in _create_buttons
+    command=self.test_button_action,
+            ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UIManager' object has no attribute 'test_button_action'. Did you mean: 'exit_button_action'?
+04:59:16 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+04:59:33 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:10:24 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:12:36 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:12:36 PM [ERROR] [dadbot]: An error occured during execution: start_ui() got an unexpected keyword argument 'stop_signal'
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\dadbot.py", line 127, in main
+    app_manager = start_ui(root, bot_start_callback = bot_app,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: start_ui() got an unexpected keyword argument 'stop_signal'
+05:13:18 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:14:45 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:15:55 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:21:33 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:21:50 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:22:42 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:22:49 PM [INFO] [control_loops]: Running update_max_stash.
+05:22:49 PM [INFO] [control_loops]: Max Stash: 36000
+05:23:02 PM [INFO] [control_loops]: Balance check: 3297
+05:23:05 PM [INFO] [control_loops]: Have waited for 1 minutes...
+05:24:05 PM [INFO] [control_loops]: Balance check: -1
+05:24:34 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:24:39 PM [INFO] [control_loops]: Running update_max_stash.
+05:24:39 PM [INFO] [control_loops]: Max Stash: 36000
+05:24:52 PM [INFO] [control_loops]: Balance check: 3297
+05:24:54 PM [INFO] [control_loops]: Have waited for 1 minutes...
+05:25:54 PM [INFO] [control_loops]: Balance check: 3297
+05:27:01 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:27:10 PM [WARNING] [ui]: Please select an item first.
+05:27:11 PM [WARNING] [ui]: Please select an item first.
+05:27:11 PM [WARNING] [ui]: Please select an item first.
+05:27:11 PM [WARNING] [ui]: Please select an item first.
+05:27:11 PM [WARNING] [ui]: Please select an item first.
+05:27:16 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:27:18 PM [WARNING] [ui]: Please select an item first.
+05:27:19 PM [WARNING] [ui]: Please select an item first.
+05:27:22 PM [INFO] [control_loops]: Running update_max_stash.
+05:27:22 PM [INFO] [control_loops]: Max Stash: 36000
+05:27:33 PM [INFO] [control_loops]: Price did not need to move.
+05:29:22 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:29:28 PM [INFO] [control_loops]: Running update_max_stash.
+05:29:28 PM [INFO] [control_loops]: Max Stash: 36000
+05:29:40 PM [INFO] [control_loops]: Price did not need to move.
+05:31:57 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:34:55 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:34:58 PM [INFO] [control_loops]: Running update_max_stash.
+05:34:58 PM [INFO] [control_loops]: Max Stash: 36000
+05:35:10 PM [INFO] [control_loops]: Price did not need to move.
+05:38:55 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:39:02 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:39:06 PM [INFO] [control_loops]: Running update_max_stash.
+05:39:06 PM [INFO] [control_loops]: Max Stash: 36000
+05:39:18 PM [INFO] [control_loops]: Price did not need to move.
+05:40:54 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:41:01 PM [INFO] [control_loops]: Running update_max_stash.
+05:41:01 PM [INFO] [control_loops]: Max Stash: 36000
+05:41:11 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+05:41:13 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+05:41:13 PM [INFO] [control_loops]: Moving price down.
+05:41:16 PM [ERROR] [control_loops]: move_price_down: 'DataCapture' object has no attribute 'banner_images'
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 443, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 110, in find_first_item_listed
+    item_loc = self.banner_images / item
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataCapture' object has no attribute 'banner_images'
+05:42:32 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:42:35 PM [INFO] [control_loops]: Running update_max_stash.
+05:42:35 PM [INFO] [control_loops]: Max Stash: 36000
+05:42:47 PM [INFO] [control_loops]: Moving price down.
+05:42:49 PM [ERROR] [control_loops]: move_price_down: expected an image filename, OpenCV numpy array, or PIL image
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 443, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 111, in find_first_item_listed
+    item_coords = pag.locateCenterOnScreen(item_loc, confidence = 0.7)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 211, in _load_cv2
+    raise TypeError('expected an image filename, OpenCV numpy array, or PIL image')
+TypeError: expected an image filename, OpenCV numpy array, or PIL image
+05:43:51 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:43:56 PM [INFO] [control_loops]: Running update_max_stash.
+05:43:56 PM [INFO] [control_loops]: Max Stash: 36000
+05:44:09 PM [INFO] [control_loops]: Moving price down.
+05:44:11 PM [ERROR] [control_loops]: move_price_down: expected an image filename, OpenCV numpy array, or PIL image
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 443, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 112, in find_first_item_listed
+    item_coords = pag.locateCenterOnScreen(item_loc, confidence = 0.7)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 211, in _load_cv2
+    raise TypeError('expected an image filename, OpenCV numpy array, or PIL image')
+TypeError: expected an image filename, OpenCV numpy array, or PIL image
+05:46:11 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:46:17 PM [INFO] [control_loops]: Running update_max_stash.
+05:46:17 PM [INFO] [control_loops]: Max Stash: 36000
+05:46:27 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+05:46:29 PM [INFO] [control_loops]: Moving price down.
+05:46:36 PM [INFO] [control_loops]: Price did not need to move.
+05:56:47 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:56:49 PM [INFO] [control_loops]: Running update_max_stash.
+05:56:49 PM [INFO] [control_loops]: Max Stash: 36000
+05:57:03 PM [INFO] [control_loops]: Balance check: 3050
+05:57:06 PM [INFO] [control_loops]: Have waited for 1 minutes...
+05:58:37 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+05:58:44 PM [INFO] [control_loops]: Running update_max_stash.
+05:58:44 PM [INFO] [control_loops]: Max Stash: 36000
+05:58:57 PM [INFO] [control_loops]: Moving price down.
+05:59:10 PM [INFO] [control_loops]: Price did not need to move.
+06:12:24 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+06:12:27 PM [INFO] [control_loops]: Running update_max_stash.
+06:12:27 PM [INFO] [control_loops]: Max Stash: 36000
+06:12:38 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+06:12:38 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+06:12:38 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+06:15:57 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+06:16:02 PM [INFO] [control_loops]: Running update_max_stash.
+06:16:02 PM [INFO] [control_loops]: Max Stash: 36000
+06:18:33 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+06:18:37 PM [INFO] [control_loops]: Running update_max_stash.
+06:18:37 PM [INFO] [control_loops]: Max Stash: 36000
+07:44:46 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+07:44:55 PM [INFO] [control_loops]: Running update_max_stash.
+07:44:55 PM [INFO] [control_loops]: Max Stash: 36000
+07:45:10 PM [INFO] [control_loops]: Balance check: 2124
+07:45:13 PM [INFO] [control_loops]: Have waited for 1 minutes...
+07:58:08 PM [INFO] [dadbot]: 
+
+-----Start new Session-----

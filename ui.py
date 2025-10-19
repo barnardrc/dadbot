@@ -17,14 +17,16 @@ IMAGE_PATH = MODULE_DIR / 'utils' / "media" / "main3.png"
 class UIManager:
     """Encapsulates all GUI logic, built upon a single root window."""
 
-    def __init__(self, master, bot_start_callback, stop_signal):
+    def __init__(self, master, bot_start_callback, signals):
         self.root = master
         
         self.bot_start_callback = bot_start_callback
-        self.stop_signal = stop_signal
+        self.signals = signals
         
         self.selectedItemData = None
         self.exit_script = False
+        self.test_button_created = False
+        self.test_env = False
         
         self._build_ui()
         
@@ -62,7 +64,28 @@ class UIManager:
         
         self.start_button.grid(row=0, column=2, padx=25, pady=25)
         self.exit_button.grid(row=0, column=1, padx=25, pady=25)
+        self.check_signals()
+    
+    def check_signals(self):
+        """
+        Check the signal object for updates.
+        This function is run by the MAIN UI THREAD.
+        """
         
+        # Check if the monitor thread wants us to do something
+        if self.signals.do_test and not self.test_button_created:
+            log.notice("UI thread detected do_test=True. Adding button...")
+            self.handle_test_signal()
+            self.test_button_created = True # Mark as created
+            
+        # Check if we need to close the app
+        if self.signals.stop:
+            self.root.destroy()
+            return # Stop the loop
+
+        # Reschedule this function to run again in 100ms
+        self.root.after(100, self.check_signals)
+    
     def _create_buttons(self):
         
         self.start_button = tk.Button(
@@ -93,6 +116,20 @@ class UIManager:
             highlightthickness=3,
             activebackground='#ADADAD'
         )
+        
+        self.test_button = tk.Button(
+            self.mainframe,
+            text='Start Test', 
+            width=15,
+            command=self.test_button_action,
+            font=('arial black', 12), 
+            bg='#7F7F7F',
+            relief='raised',
+            borderwidth=4,
+            highlightcolor='#CCB30B',
+            highlightthickness=3,
+            activebackground='#ADADAD'
+        )        
         
     def format_for_json(self):
         formattedName = format_funcs.format_item_for_img_loc(
@@ -126,7 +163,8 @@ class UIManager:
         
         if self.itemExists:
             self.start_button.config(state = 'disabled')
-            self.stop_signal.stop = False
+            self.test_button.config(state = 'disabled')
+            self.signals.stop = False
             dim, is_gold_storage, is_stackable, max_stack = self.get_item_data()
             
         else:
@@ -147,29 +185,34 @@ class UIManager:
             "is_gold_storage": is_gold_storage,
             "is_stackable": is_stackable,
             "max_stack": max_stack,
-            "stop_signal": self.stop_signal,
+            "signals": self.signals,
             "hasItem": True,
-            "itemExists": self.itemExists
+            "itemExists": self.itemExists,
+            "test_env": self.test_env
         }
         
         bot_thread = threading.Thread(
             target=self.bot_start_callback,
-            kwargs=args_for_bot
+            kwargs=args_for_bot,
+            daemon = True
             )
         
         bot_thread.start()
         
     def start_button_action(self):
-
         self._start_bot_process()
         
     def exit_button_action(self):
         self.exit_script = True
         
-        self.stop_signal.stop = True
+        self.signals.stop = True
         log.notice("Exiting... ")
         self.root.destroy() 
-        
+    
+    def test_button_action(self):
+        self.test_env = True
+        self._start_bot_process()
+    
     def run_ui(self):
         self.root.mainloop()
         
@@ -182,8 +225,11 @@ class UIManager:
         img_name = selected_item_name
         self.selectedItemData = format_funcs.format_item_from_img_loc(img_name)
         self.set_item_exists()
-        print(f"Item exists: {self.itemExists}")
-        print(f"Selected Item: {self.selectedItemData}")
+        log.debug(f"Item exists: {self.itemExists}")
+        log.debug(f"Selected Item: {self.selectedItemData}")
+    
+    def handle_test_signal(self):
+        self.test_button.grid(row=1, column=1, padx=25, pady=25)
     
 def get_images_in_path():
     current_dir = Path(__file__).parent
@@ -192,15 +238,15 @@ def get_images_in_path():
     
     return banners, target_dir
 
-def start_ui(root, bot_start_callback, stop_signal):
+def start_ui(root, bot_start_callback, signals):
     vals = get_images_in_path()
     banners = vals[0]
     json_handler.path_check()
     
-    if banners:        
+    if banners:
         load_styles(root)
         
-        ui = UIManager(root, bot_start_callback, stop_signal)
+        ui = UIManager(root, bot_start_callback, signals)
         app_master_frame = ui.get_image_container()
         
         app = ImageListApp(app_master_frame, banners, 

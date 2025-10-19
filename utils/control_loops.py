@@ -82,7 +82,8 @@ class VariableHandler(metaclass = Singleton):
                  maxBuysBeforeSell = 5,
                  maxSearchTime = 125,
                  yPosMulti = 0,
-                 freeSpaces = 0
+                 freeSpaces = 0,
+                 totalListingSpaces = 10
                  ):
         
         self.item = item
@@ -102,19 +103,24 @@ class VariableHandler(metaclass = Singleton):
         self.yPosMulti = yPosMulti
         self.maxSearchTime = maxSearchTime
         self.freeSpaces = freeSpaces
+        self.totalListingSpaces = totalListingSpaces
         self.stop_signal = stop_signal
     
     def set_max_buys_before_sell(self):
         if Item().is_gold_storage:
             self.maxBuysBeforeSell = 1
         else:
-            self.maxBuysBeforeSell = 1
+            self.maxBuysBeforeSell = 3
         
         log.notice(f"Set the maximum amount of buys before a sell to {self.maxBuysBeforeSell}")
         
     def update_free_spaces(self):
-        self.freeSpaces = DataCapture().free_spaces_check()
-        #log.debug(f"Listing spaces available: {self.freeSpaces}")
+        allSpaces = list(DataCapture().free_spaces_check())
+        filteredSpaces = DataUtils.filter_close_boxes(allSpaces)
+        
+        self.freeSpaces = len(filteredSpaces)
+        
+        log.debug(f"Listing spaces available: {self.freeSpaces}")
         
     def update_max_stash(self, amounts: list) -> int:
         log.info("Running update_max_stash.")
@@ -147,14 +153,10 @@ class VariableHandler(metaclass = Singleton):
         log.notice("Running set_prices.")
         try:
             
-            if VariableHandler().stop_signal.stop: raise ExitException
-            
             attempt = 0
             prevBuyPrice = self.idealBuyPrice
             success = False
             while success == False:
-                
-                if VariableHandler().stop_signal.stop: raise ExitException
                 
                 Interact().return_to_market()
                 Interact().move_to_search()
@@ -194,14 +196,13 @@ class VariableHandler(metaclass = Singleton):
                         
                     time.sleep(10)
                     
-                    if VariableHandler().stop_signal.stop: raise ExitException
+                    
                     
                     attempt += 1
                 
                 if attempt == 5:
                     MarketCalc().update_cat_bypass(True)
-                    
-                
+                                    
             # Get new maxSearchTime
             MarketCalc().update_volatility(prevBuyPrice, idealBuyPrice)
             maxSearchTime = MarketCalc().update_max_search_time()
@@ -209,16 +210,13 @@ class VariableHandler(metaclass = Singleton):
             self.idealBuyPrice = idealBuyPrice
             self.idealSellPrice = str(idealSellPrice)
             self.maxSearchTime = maxSearchTime
-        
-        
+
         except ExitException:
             raise
             
         except Exception as e:
             print(f"VariableHandler().set_prices() attempt # {attempt}: {e}")
-        
-        
-            
+         
     def get_buys_before_sell(self):
         return self.buysBeforeSell
     
@@ -287,9 +285,6 @@ def init_item(item, formattedItem, hasItem):
     except Exception as e:
         log.error(f"init_item: {e}", exc_info = True)
         
-    
-    
-
 # Checks if game process is running
 def is_game_running():
     return "Tavern.exe" in (p.name() for p in psutil.process_iter())
@@ -342,8 +337,7 @@ def collect_sell(soldItems, mktPrice, inSlotList):
         
         if slotsLeft > 0:
             VariableHandler().reset_buys_before_sell()
-        
-        
+
     except Exception as e:
         log.error(f"collect_sell: {e}", exc_info=True)
 
@@ -385,15 +379,13 @@ def start_sequence(hasItem = False, itemExists = False):
             # Initial search
             Interact().item_search(item)
             time.sleep(0.6)
-            if VariableHandler().stop_signal.stop: raise ExitException
-            
+
         elif itemExists:
             
             # Initial search
             Interact().item_search(item)
             time.sleep(0.6)
-            if VariableHandler().stop_signal.stop: raise ExitException
-            
+
             # No need to clear slots if item data needed to be captured.
             Interact().return_to_my_listings()
             Interact().check_on_inventory()
@@ -414,7 +406,7 @@ def start_sequence(hasItem = False, itemExists = False):
         
 # When market price is below listed items price, but sell page is full.
 # It may be necessary to clear market spaces and 
-def move_price_down(amtToChange=1, changeThreshold = 0.05):
+def move_price_down(amtToChange = 1, changeThreshold = 0.05):
     try:
         log.notice("Running move_price_down.")
         priceCat = MarketCalc().get_price_category()
@@ -423,20 +415,29 @@ def move_price_down(amtToChange=1, changeThreshold = 0.05):
         # Find new quicksell price
         VariableHandler().set_prices()
         idealBuyPrice, idealSellPrice = VariableHandler().get_prices()
-        
+
         # Ensure prices are updated and persistent
         log.debug(f"Updated Prices: Buy - {idealBuyPrice}, Sell - {idealSellPrice}")
         
         def cancel_and_relist():
             log.info("Moving price down.")
+            formattedItem = format_funcs.format_item_for_banner_loc(
+                Item().formattedName)
             Interact().return_to_my_listings()
-            Interact().cancel_listing(amtToChange)
+            
+            for i in range(amtToChange):
+                item_loc = DataCapture().find_first_item_listed(formattedItem)
+                Interact().cancel_listing(item_loc)
+                
             inSlotList = VariableHandler().check_in_slot()
             
             # List items at the new price
             Interact().sell_items(idealSellPrice, inSlotList, amtToChange)
             VariableHandler().reset_buys_before_sell()
-            
+
+        if VariableHandler().stop_signal.do_test == True:
+            cancel_and_relist()
+        
         if (priceCat <= 1 and 
             idealBuyPrice < (prevBuyPrice * (1 - changeThreshold))
             ):
@@ -458,13 +459,9 @@ def buy_sell(maxKeysBuyable, purchaseAttempt = 0,
     log.notice("Running buy_sell.")
     
     try:
-        
-        if VariableHandler().stop_signal.stop: raise ExitException
-        
+
         while maxKeysBuyable > 0:
-            
-            if VariableHandler().stop_signal.stop: raise ExitException
-            
+
             profitPrice, mktPrice = VariableHandler().get_prices()
             maxSearchTime = VariableHandler().get_max_search_time()
             log.debug(f"Max search time: {maxSearchTime}\n")
@@ -572,9 +569,7 @@ def buy_attempt_funct():
             Interact().market_refresh()
             
             time.sleep(0.55)
-            
-            if VariableHandler().stop_signal.stop: raise ExitException
-        
+
             price = format_funcs.price_formatter(DataCapture().price_grab())
             # If stuck on listings page due to dungeon change dialogue box
             if type(price) == str:
@@ -623,8 +618,7 @@ def balance_check(
     
     log.notice("Running balance_check.")
     try:
-        if VariableHandler().stop_signal.stop: raise ExitException
-        
+
         priceCategory = MarketCalc().get_price_category()
         profitPrice, mktPrice = VariableHandler().get_prices()
         # The balance check loop
@@ -636,9 +630,7 @@ def balance_check(
         log.debug(f"Minimum balance: {minBalance}")
         
         while VariableHandler().get_balance() < minBalance:
-            
-            if VariableHandler().stop_signal.stop: raise ExitException
-            
+
             profitPrice, mktPrice = VariableHandler().get_prices()
 
             Interact().return_to_my_listings()
@@ -756,8 +748,6 @@ def balance_check(
                 mktPrice
                 ))
         
-        if VariableHandler().stop_signal.stop: raise ExitException
-        
         log.notice(f"{ProfitCalc()}")
         
         return (
@@ -783,9 +773,12 @@ def balance_check(
 """
 
 def vision_test():
-    print(DataCapture().item_in_slot(Item().get_dim()))
-    x = DataCapture().free_spaces_check()
-    print(x)
+    d = DataCapture().get_prices()
+    formatted_data = format_funcs.market_data_formatter(d)
+    
+    #balance = DataCapture().get_balance()
+    
+    print(f"Formatted Data:\n{formatted_data}")
     
 def interact_test(var1, var2, var3):
     Interact().sell_items(var1, var2, var3)

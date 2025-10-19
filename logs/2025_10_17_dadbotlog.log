@@ -1,0 +1,1625 @@
+02:02:02 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+02:02:08 PM [ERROR] [format_funcs]: Error formatting UI item: invalid literal for int() with base 10: 'm'
+02:02:53 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+02:03:00 PM [INFO] [control_loops]: Running update_max_stash.
+02:03:00 PM [INFO] [control_loops]: Max Stash: 36000
+02:03:07 PM [ERROR] [web_scraper]: webpage_read: <urlopen error [Errno 11001] getaddrinfo failed>
+02:03:07 PM [ERROR] [web_scraper]: get_price: expected string or bytes-like object, got 'NoneType'
+02:03:07 PM [WARNING] [calc_funcs]: Set price category failed: '<' not supported between instances of 'NoneType' and 'int' : turning on category bypass.
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\dependents\calc_funcs.py", line 345, in set_price_category
+    if price < self.cat1Cutoff:
+       ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+02:03:19 PM [INFO] [control_loops]: Balance check: 27734
+02:04:56 PM [INFO] [control_loops]: No buys were attempted for 125 refreshes...
+02:04:56 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:04:59 PM [INFO] [control_loops]: Balance check: 27734
+02:04:59 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:05:00 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:05:17 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:05:34 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:05:51 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:06:08 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:06:25 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:06:41 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:06:58 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:07:15 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:07:32 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:09:45 PM [INFO] [control_loops]: No buys were attempted for 150 refreshes...
+02:09:45 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:09:47 PM [INFO] [control_loops]: Balance check: 27734
+02:09:47 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:09:49 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:09:49 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:09:49 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:10:01 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:10:01 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:10:01 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:12:28 PM [INFO] [control_loops]: No buys were attempted for 175 refreshes...
+02:12:28 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:12:30 PM [INFO] [control_loops]: Balance check: 27734
+02:12:30 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:12:32 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:12:32 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:12:32 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:12:44 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:12:44 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:12:44 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:12:56 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:12:56 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:12:56 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:13:08 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:13:08 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:13:08 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:13:20 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:13:36 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:13:53 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:14:10 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:14:27 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:14:27 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:14:27 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:14:39 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:14:39 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:14:39 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:17:25 PM [INFO] [control_loops]: No buys were attempted for 200 refreshes...
+02:17:25 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:17:27 PM [INFO] [control_loops]: Balance check: 27734
+02:17:27 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:17:29 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:17:29 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:17:29 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:17:41 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:17:41 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:17:41 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:17:53 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:17:53 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:17:53 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:18:04 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:18:04 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:18:04 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:18:16 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:18:16 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:18:16 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:18:28 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:18:28 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:18:28 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:18:40 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:18:40 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:18:40 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:18:52 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:18:52 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:18:52 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:19:04 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:19:04 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:19:04 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:19:15 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:19:15 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:19:15 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:19:27 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:19:27 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:19:27 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:19:39 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:19:39 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:19:39 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:19:51 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:19:51 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:19:51 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:20:03 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:20:03 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:20:03 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:20:15 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:20:15 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:20:15 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:20:26 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:20:26 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:20:26 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:20:38 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:20:38 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:20:38 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:20:50 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:20:50 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:20:50 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:21:02 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:21:02 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:21:02 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:21:14 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:21:14 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:21:14 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:21:26 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:21:26 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:21:26 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:21:37 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:21:37 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:21:37 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:21:49 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:21:49 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:21:49 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:22:01 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:22:01 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:22:01 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:22:13 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:22:13 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:22:13 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:22:25 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:22:25 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:22:25 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:22:37 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:22:37 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:22:37 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:22:48 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:22:48 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:22:48 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:23:00 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:23:00 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:23:00 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:23:12 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:23:12 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:23:12 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:23:24 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:23:24 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:23:24 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:25:28 PM [INFO] [control_loops]: A buy sequence was executed at 4550 after 143 refreshes.
+02:25:29 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:25:32 PM [INFO] [control_loops]: Balance check: 23184
+02:25:32 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:25:32 PM [INFO] [control_loops]: Buy: 4550
+02:27:42 PM [INFO] [control_loops]: A buy sequence was executed at 4500 after 167 refreshes.
+02:27:43 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:27:46 PM [INFO] [control_loops]: Balance check: 10004684
+02:27:46 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:29:13 PM [INFO] [control_loops]: A buy sequence was executed at 4500 after 110 refreshes.
+02:29:14 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:29:17 PM [INFO] [control_loops]: Balance check: 14184
+02:29:17 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:29:17 PM [INFO] [control_loops]: Buy: 4500
+02:29:45 PM [INFO] [control_loops]: A buy sequence was executed at 4550 after 33 refreshes.
+02:29:47 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:29:49 PM [INFO] [control_loops]: Balance check: 9634
+02:29:49 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:29:49 PM [INFO] [control_loops]: Buy: 4550
+02:30:01 PM [INFO] [control_loops]: Sell: 4849
+02:31:06 PM [INFO] [control_loops]: A buy sequence was executed at 4499 after 80 refreshes.
+02:31:07 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:31:10 PM [INFO] [control_loops]: Balance check: 4167
+02:31:15 PM [INFO] [control_loops]: Have waited for 1 minutes...
+02:32:15 PM [INFO] [control_loops]: Balance check: 3925
+02:32:17 PM [INFO] [control_loops]: Have waited for 2 minutes...
+02:33:17 PM [INFO] [control_loops]: Balance check: 3925
+02:33:20 PM [INFO] [control_loops]: Have waited for 3 minutes...
+02:34:20 PM [INFO] [control_loops]: Balance check: 3925
+02:34:23 PM [INFO] [control_loops]: Have waited for 4 minutes...
+02:35:23 PM [INFO] [control_loops]: Balance check: 3925
+02:35:29 PM [INFO] [control_loops]: Sell: 4849
+02:35:29 PM [INFO] [control_loops]: Balance check: 8774
+02:35:29 PM [INFO] [control_loops]: It took 4 minute(s) for items to sell.
+02:35:29 PM [INFO] [control_loops]: Buy: 4499
+02:35:31 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:35:31 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:35:31 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:38:16 PM [INFO] [control_loops]: No buys were attempted for 200 refreshes...
+02:38:16 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:38:19 PM [INFO] [control_loops]: Balance check: 8774
+02:38:19 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:41:13 PM [INFO] [control_loops]: No buys were attempted for 225 refreshes...
+02:41:13 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:41:16 PM [INFO] [control_loops]: Balance check: 8774
+02:41:16 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:41:18 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:41:18 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:41:18 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:41:29 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:41:29 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:41:29 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:41:41 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:41:41 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:41:41 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:41:53 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:41:53 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:41:53 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:42:05 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:42:05 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:42:05 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:42:17 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:42:17 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:42:17 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:42:29 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:42:29 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:42:29 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:42:41 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:42:41 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:42:41 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:44:29 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:29 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:32 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:32 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:35 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:35 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:38 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:38 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:41 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:41 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:45 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:45 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:48 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:48 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:51 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:51 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:54 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:54 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:44:57 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:44:57 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:00 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:00 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:03 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:03 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:06 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:06 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:09 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:09 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:12 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:12 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:15 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:15 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:18 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:18 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:21 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:21 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:24 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:24 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:27 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:27 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:30 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:30 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:34 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:34 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:37 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:37 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:45:40 PM [WARNING] [control_loops]: Formatter Returned 'H4948' as the price.
+02:45:40 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+02:46:59 PM [INFO] [control_loops]: No buys were attempted for 250 refreshes...
+02:46:59 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:47:02 PM [INFO] [control_loops]: Balance check: 8774
+02:47:02 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:47:04 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:47:04 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:47:04 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:47:16 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:47:32 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:47:49 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:48:06 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:48:23 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:48:23 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:48:23 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:48:35 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:48:52 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:48:52 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:48:52 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:49:03 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:49:03 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:49:03 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:49:15 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:49:15 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:49:15 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:49:27 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:49:44 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:49:44 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:49:44 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:49:56 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:49:56 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:49:56 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:50:08 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:50:08 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:50:08 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:50:19 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:50:19 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:50:19 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:50:31 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:50:48 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:51:05 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:51:05 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:51:05 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:51:17 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:51:17 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:51:17 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:51:29 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:51:29 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:51:29 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:55:11 PM [INFO] [control_loops]: No buys were attempted for 275 refreshes...
+02:55:11 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+02:55:14 PM [INFO] [control_loops]: Balance check: 8774
+02:55:14 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+02:55:15 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:55:32 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:55:49 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:56:06 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:56:06 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:56:06 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:56:18 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:56:35 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:56:35 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:56:35 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:56:47 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:57:03 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+02:57:20 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:57:20 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:57:20 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:57:32 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:57:32 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:57:32 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:57:44 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:57:44 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:57:44 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:57:56 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:57:56 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:57:56 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+02:58:08 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+02:58:08 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+02:58:08 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:01:23 PM [INFO] [control_loops]: A buy sequence was executed at 4500 after 238 refreshes.
+03:01:25 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+03:01:27 PM [INFO] [control_loops]: Balance check: 4274
+03:01:42 PM [INFO] [control_loops]: Sell: 4841
+03:01:42 PM [INFO] [control_loops]: Balance check: 23428
+03:01:42 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+03:01:44 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:01:44 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:01:44 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:01:56 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:01:56 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:01:56 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:02:07 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:02:07 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:02:07 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:02:19 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:02:19 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:02:19 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:02:36 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:36 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:02:39 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:39 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:02:42 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:42 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:02:45 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:45 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:02:48 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:48 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:02:51 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:51 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:02:54 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:54 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:02:57 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:02:57 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:01 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:01 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:04 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:04 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:07 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:07 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:10 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:10 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:13 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:13 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:16 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:16 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:19 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:19 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:22 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:22 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:25 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:25 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:28 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:28 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:31 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:31 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:34 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:34 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:37 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:37 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:40 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:40 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:43 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:43 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:46 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:46 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:50 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:50 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:53 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:53 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:56 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:56 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:03:59 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:03:59 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:04:02 PM [WARNING] [control_loops]: Formatter Returned 'H4841' as the price.
+03:04:02 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:07:47 PM [INFO] [control_loops]: No buys were attempted for 325 refreshes...
+03:07:47 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+03:07:49 PM [INFO] [control_loops]: Balance check: 23428
+03:07:49 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+03:07:51 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:07:51 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:07:51 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:08:03 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:08:03 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:08:03 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:08:15 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:08:31 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:08:31 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:08:31 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:08:43 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:09:00 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:09:17 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:09:34 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:09:34 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:09:34 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:09:46 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:09:46 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:09:46 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:09:57 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:09:57 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:09:57 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:10:09 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:10:09 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:10:09 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:10:21 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:10:38 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:10:55 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:11:12 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:11:28 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:11:28 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:11:28 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:11:40 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:11:40 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:11:40 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:11:52 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:11:52 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:11:52 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:12:04 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:12:04 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:12:04 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:12:16 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:12:16 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:12:16 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:12:27 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:12:27 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:12:27 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:12:39 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:12:39 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:12:39 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:17:19 PM [INFO] [control_loops]: No buys were attempted for 350 refreshes...
+03:17:19 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+03:17:21 PM [INFO] [control_loops]: Balance check: 23428
+03:17:21 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+03:17:23 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:17:40 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:17:57 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:18:14 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:18:30 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:18:30 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:18:30 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:18:42 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:22:00 PM [WARNING] [control_loops]: Formatter Returned '' as the price.
+03:22:00 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:06 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:06 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:09 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:09 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:12 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:12 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:15 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:15 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:18 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:18 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:21 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:21 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:24 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:24 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:27 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:27 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:30 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:30 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:33 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:33 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:36 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:36 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:22:39 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:22:39 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:24:16 PM [INFO] [control_loops]: No buys were attempted for 375 refreshes...
+03:24:16 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+03:24:18 PM [INFO] [control_loops]: Balance check: 23428
+03:24:18 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+03:24:20 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:24:20 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:24:20 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:24:32 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:24:32 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:24:32 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:24:44 PM [WARNING] [calc_funcs]: MAD is zero, no outliers will be identified.
+03:25:01 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:25:01 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:25:01 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:25:13 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:25:13 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:25:13 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:25:24 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:25:24 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:25:24 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:25:36 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:25:36 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:25:36 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:25:48 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:25:48 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:25:48 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:26:00 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:26:00 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:26:00 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:26:12 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:26:12 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:26:12 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:26:29 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:29 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:32 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:32 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:35 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:35 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:38 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:38 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:41 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:41 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:44 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:44 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:47 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:47 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:50 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:50 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:53 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:53 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:56 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:56 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:26:59 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:26:59 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:02 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:02 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:05 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:05 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:08 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:08 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:11 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:11 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:14 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:14 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:18 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:18 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:21 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:21 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:24 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:24 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:27:27 PM [WARNING] [control_loops]: Formatter Returned 'M4884' as the price.
+03:27:27 PM [ERROR] [calc_funcs]: profit_check raised: '<' not supported between instances of 'str' and 'int'
+03:32:15 PM [INFO] [control_loops]: No buys were attempted for 400 refreshes...
+03:32:15 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+03:32:18 PM [INFO] [control_loops]: Balance check: 23428
+03:32:18 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+03:32:19 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:32:19 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:32:19 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:32:31 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:32:31 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:32:31 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:32:43 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:32:43 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:32:43 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:32:55 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:32:55 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:32:55 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:33:07 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:33:07 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:33:07 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:33:19 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:33:19 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:33:19 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:33:30 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:33:30 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:33:30 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:33:42 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:33:42 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:33:42 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:33:54 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:33:54 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:33:54 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:34:06 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:34:06 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:34:06 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:34:18 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:34:18 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:34:18 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:34:30 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:34:30 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:34:30 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:34:41 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:34:41 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:34:41 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:34:53 PM [WARNING] [calc_funcs]: Price Category may be incorrect!
+03:34:53 PM [ERROR] [calc_funcs]: set_prices: cannot convert float NaN to integer
+03:34:53 PM [ERROR] [control_loops]: Price update failed in set_prices: cannot unpack non-iterable NoneType object
+03:57:56 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+03:58:00 PM [INFO] [control_loops]: Running update_max_stash.
+03:58:00 PM [INFO] [control_loops]: Max Stash: 36000
+03:58:04 PM [ERROR] [web_scraper]: webpage_read: <urlopen error [Errno 11002] getaddrinfo failed>
+03:58:04 PM [ERROR] [web_scraper]: get_price: expected string or bytes-like object, got 'NoneType'
+03:58:04 PM [WARNING] [calc_funcs]: Set price category failed: '<' not supported between instances of 'NoneType' and 'int' : turning on category bypass.
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\dependents\calc_funcs.py", line 345, in set_price_category
+    if price < self.cat1Cutoff:
+       ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+03:58:15 PM [INFO] [control_loops]: Balance check: 28083
+03:58:40 PM [INFO] [control_loops]: A buy sequence was executed at 1200 after 28 refreshes.
+03:58:41 PM [INFO] [control_loops]: Rolling Avg Buy Time: 0 minute(s)
+03:58:44 PM [INFO] [control_loops]: Balance check: 23083
+03:58:44 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+03:58:44 PM [INFO] [control_loops]: Buy: 1200
+04:00:20 PM [INFO] [control_loops]: No buys were attempted for 125 refreshes...
+04:00:20 PM [INFO] [control_loops]: Rolling Avg Buy Time: 0 minute(s)
+04:00:23 PM [INFO] [control_loops]: Balance check: 23083
+04:00:23 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:02:08 PM [INFO] [dadbot]: 
+
+-----Start new Session-----
+04:02:10 PM [INFO] [control_loops]: Running update_max_stash.
+04:02:10 PM [INFO] [control_loops]: Max Stash: 36000
+04:02:14 PM [ERROR] [web_scraper]: webpage_read: <urlopen error [Errno 11002] getaddrinfo failed>
+04:02:14 PM [ERROR] [web_scraper]: get_price: expected string or bytes-like object, got 'NoneType'
+04:02:14 PM [WARNING] [calc_funcs]: Set price category failed: '<' not supported between instances of 'NoneType' and 'int' : turning on category bypass.
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\dependents\calc_funcs.py", line 345, in set_price_category
+    if price < self.cat1Cutoff:
+       ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+04:02:25 PM [INFO] [control_loops]: Balance check: 22826
+04:04:02 PM [INFO] [control_loops]: No buys were attempted for 125 refreshes...
+04:04:02 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:04:04 PM [INFO] [control_loops]: Balance check: 22826
+04:04:04 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:06:02 PM [INFO] [control_loops]: No buys were attempted for 150 refreshes...
+04:06:02 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:06:05 PM [INFO] [control_loops]: Balance check: 22826
+04:06:05 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:08:21 PM [INFO] [control_loops]: No buys were attempted for 175 refreshes...
+04:08:21 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:08:24 PM [INFO] [control_loops]: Balance check: 22826
+04:08:24 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:10:59 PM [INFO] [control_loops]: No buys were attempted for 200 refreshes...
+04:10:59 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:11:01 PM [INFO] [control_loops]: Balance check: 22826
+04:11:01 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:12:34 PM [INFO] [control_loops]: A buy sequence was executed at 4500 after 115 refreshes.
+04:12:36 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:12:38 PM [INFO] [control_loops]: Balance check: 18326
+04:12:38 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:12:38 PM [INFO] [control_loops]: Buy: 4500
+04:15:31 PM [INFO] [control_loops]: No buys were attempted for 225 refreshes...
+04:15:31 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:15:33 PM [INFO] [control_loops]: Balance check: 18326
+04:15:33 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:18:46 PM [INFO] [control_loops]: No buys were attempted for 250 refreshes...
+04:18:46 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:18:49 PM [INFO] [control_loops]: Balance check: 18326
+04:18:49 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:22:21 PM [INFO] [control_loops]: No buys were attempted for 275 refreshes...
+04:22:21 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:22:24 PM [INFO] [control_loops]: Balance check: 18326
+04:22:24 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:26:15 PM [INFO] [control_loops]: No buys were attempted for 300 refreshes...
+04:26:15 PM [INFO] [control_loops]: Rolling Avg Buy Time: 1 minute(s)
+04:26:18 PM [INFO] [control_loops]: Balance check: 18326
+04:26:18 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:29:38 PM [INFO] [control_loops]: A buy sequence was executed at 4555 after 257 refreshes.
+04:29:40 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+04:29:42 PM [INFO] [control_loops]: Balance check: 13771
+04:29:42 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:29:42 PM [INFO] [control_loops]: Buy: 4555
+04:31:23 PM [INFO] [control_loops]: A buy sequence was executed at 4740 after 129 refreshes.
+04:31:25 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+04:31:27 PM [INFO] [control_loops]: Balance check: 9031
+04:31:27 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+04:31:27 PM [INFO] [control_loops]: Buy: 4740
+04:31:37 PM [INFO] [control_loops]: Sell: 5045
+04:33:33 PM [INFO] [control_loops]: A buy sequence was executed at 4700 after 148 refreshes.
+04:33:35 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+04:33:37 PM [INFO] [control_loops]: Balance check: 3575
+04:33:42 PM [INFO] [control_loops]: Have waited for 1 minutes...
+04:34:42 PM [INFO] [control_loops]: Balance check: 3323
+04:34:45 PM [INFO] [control_loops]: Have waited for 2 minutes...
+04:35:45 PM [INFO] [control_loops]: Balance check: 3323
+04:35:48 PM [INFO] [control_loops]: Have waited for 3 minutes...
+04:36:48 PM [INFO] [control_loops]: Balance check: 3323
+04:36:50 PM [INFO] [control_loops]: Have waited for 4 minutes...
+04:37:50 PM [INFO] [control_loops]: Balance check: 3323
+04:37:53 PM [INFO] [control_loops]: Have waited for 5 minutes...
+04:38:53 PM [INFO] [control_loops]: Balance check: 3323
+04:38:56 PM [INFO] [control_loops]: Have waited for 6 minutes...
+04:39:56 PM [INFO] [control_loops]: Balance check: 3323
+04:39:59 PM [INFO] [control_loops]: Have waited for 7 minutes...
+04:40:59 PM [INFO] [control_loops]: Balance check: 3323
+04:41:01 PM [INFO] [control_loops]: Have waited for 8 minutes...
+04:42:01 PM [INFO] [control_loops]: Balance check: 3323
+04:42:04 PM [INFO] [control_loops]: Have waited for 9 minutes...
+04:43:04 PM [INFO] [control_loops]: Balance check: 3323
+04:43:09 PM [INFO] [control_loops]: Price did not need to move.
+04:43:09 PM [INFO] [control_loops]: Balance check: -1
+04:43:12 PM [INFO] [control_loops]: Balance check: -1
+04:43:14 PM [INFO] [control_loops]: Balance check: -1
+04:43:17 PM [INFO] [control_loops]: Balance check: -1
+04:43:20 PM [INFO] [control_loops]: Balance check: -1
+04:43:23 PM [INFO] [control_loops]: Balance check: -1
+04:43:25 PM [INFO] [control_loops]: Balance check: -1
+04:43:28 PM [INFO] [control_loops]: Balance check: 3323
+04:43:31 PM [INFO] [control_loops]: Have waited for 11 minutes...
+04:44:31 PM [INFO] [control_loops]: Balance check: 3323
+04:44:34 PM [INFO] [control_loops]: Have waited for 12 minutes...
+04:45:34 PM [INFO] [control_loops]: Balance check: 3323
+04:45:36 PM [INFO] [control_loops]: Have waited for 13 minutes...
+04:46:36 PM [INFO] [control_loops]: Balance check: 3323
+04:46:39 PM [INFO] [control_loops]: Have waited for 14 minutes...
+04:47:39 PM [INFO] [control_loops]: Balance check: 3323
+04:47:42 PM [INFO] [control_loops]: Have waited for 15 minutes...
+04:48:42 PM [INFO] [control_loops]: Balance check: 3323
+04:48:45 PM [INFO] [control_loops]: Have waited for 16 minutes...
+04:49:45 PM [INFO] [control_loops]: Balance check: 3323
+04:49:47 PM [INFO] [control_loops]: Have waited for 17 minutes...
+04:50:47 PM [INFO] [control_loops]: Balance check: 3323
+04:50:50 PM [INFO] [control_loops]: Have waited for 18 minutes...
+04:51:50 PM [INFO] [control_loops]: Balance check: 3323
+04:51:53 PM [INFO] [control_loops]: Have waited for 19 minutes...
+04:52:53 PM [INFO] [control_loops]: Balance check: 3323
+04:52:57 PM [INFO] [control_loops]: Price did not need to move.
+04:52:58 PM [INFO] [control_loops]: Balance check: -1
+04:53:00 PM [INFO] [control_loops]: Balance check: 3323
+04:53:03 PM [INFO] [control_loops]: Have waited for 21 minutes...
+04:54:03 PM [INFO] [control_loops]: Balance check: 3323
+04:54:06 PM [INFO] [control_loops]: Have waited for 22 minutes...
+04:55:06 PM [INFO] [control_loops]: Balance check: 3323
+04:55:08 PM [INFO] [control_loops]: Have waited for 23 minutes...
+04:56:09 PM [INFO] [control_loops]: Balance check: 3323
+04:56:11 PM [INFO] [control_loops]: Have waited for 24 minutes...
+04:57:11 PM [INFO] [control_loops]: Balance check: 3323
+04:57:14 PM [INFO] [control_loops]: Have waited for 25 minutes...
+04:58:14 PM [INFO] [control_loops]: Balance check: 3323
+04:58:17 PM [INFO] [control_loops]: Have waited for 26 minutes...
+04:59:17 PM [INFO] [control_loops]: Balance check: 3323
+04:59:19 PM [INFO] [control_loops]: Have waited for 27 minutes...
+05:00:20 PM [INFO] [control_loops]: Balance check: 3323
+05:00:22 PM [INFO] [control_loops]: Have waited for 28 minutes...
+05:01:22 PM [INFO] [control_loops]: Balance check: 3323
+05:01:25 PM [INFO] [control_loops]: Have waited for 29 minutes...
+05:02:25 PM [INFO] [control_loops]: Balance check: 3323
+05:02:29 PM [INFO] [control_loops]: Price did not need to move.
+05:02:30 PM [INFO] [control_loops]: Balance check: -1
+05:02:32 PM [INFO] [control_loops]: Balance check: 3323
+05:02:35 PM [INFO] [control_loops]: Have waited for 31 minutes...
+05:03:35 PM [INFO] [control_loops]: Balance check: 3323
+05:03:38 PM [INFO] [control_loops]: Have waited for 32 minutes...
+05:04:38 PM [INFO] [control_loops]: Balance check: 3323
+05:04:40 PM [INFO] [control_loops]: Have waited for 33 minutes...
+05:05:41 PM [INFO] [control_loops]: Balance check: 3323
+05:05:43 PM [INFO] [control_loops]: Have waited for 34 minutes...
+05:06:43 PM [INFO] [control_loops]: Balance check: 3323
+05:06:46 PM [INFO] [control_loops]: Have waited for 35 minutes...
+05:07:46 PM [INFO] [control_loops]: Balance check: 3323
+05:07:49 PM [INFO] [control_loops]: Have waited for 36 minutes...
+05:08:49 PM [INFO] [control_loops]: Balance check: 3323
+05:08:51 PM [INFO] [control_loops]: Have waited for 37 minutes...
+05:09:52 PM [INFO] [control_loops]: Balance check: 3323
+05:09:54 PM [INFO] [control_loops]: Have waited for 38 minutes...
+05:10:54 PM [INFO] [control_loops]: Balance check: 3323
+05:10:57 PM [INFO] [control_loops]: Have waited for 39 minutes...
+05:11:57 PM [INFO] [control_loops]: Balance check: 3323
+05:12:02 PM [INFO] [control_loops]: Price did not need to move.
+05:12:02 PM [INFO] [control_loops]: Balance check: -1
+05:12:04 PM [INFO] [control_loops]: Balance check: 73
+05:12:07 PM [INFO] [control_loops]: Have waited for 41 minutes...
+05:13:07 PM [INFO] [control_loops]: Balance check: 73
+05:13:10 PM [INFO] [control_loops]: Have waited for 42 minutes...
+05:14:10 PM [INFO] [control_loops]: Balance check: 73
+05:14:13 PM [INFO] [control_loops]: Have waited for 43 minutes...
+05:15:13 PM [INFO] [control_loops]: Balance check: 73
+05:15:15 PM [INFO] [control_loops]: Have waited for 44 minutes...
+05:16:15 PM [INFO] [control_loops]: Balance check: 73
+05:16:18 PM [INFO] [control_loops]: Have waited for 45 minutes...
+05:17:18 PM [INFO] [control_loops]: Balance check: 73
+05:17:21 PM [INFO] [control_loops]: Have waited for 46 minutes...
+05:18:21 PM [INFO] [control_loops]: Balance check: 73
+05:18:23 PM [INFO] [control_loops]: Have waited for 47 minutes...
+05:19:24 PM [INFO] [control_loops]: Balance check: 73
+05:19:26 PM [INFO] [control_loops]: Have waited for 48 minutes...
+05:20:26 PM [INFO] [control_loops]: Balance check: 73
+05:20:29 PM [INFO] [control_loops]: Have waited for 49 minutes...
+05:21:29 PM [INFO] [control_loops]: Balance check: 73
+05:21:34 PM [INFO] [control_loops]: Price did not need to move.
+05:21:34 PM [INFO] [control_loops]: Balance check: -1
+05:21:36 PM [INFO] [control_loops]: Balance check: -1
+05:21:39 PM [INFO] [control_loops]: Balance check: 7
+05:21:42 PM [INFO] [control_loops]: Have waited for 51 minutes...
+05:22:42 PM [INFO] [control_loops]: Balance check: 7
+05:22:45 PM [INFO] [control_loops]: Have waited for 52 minutes...
+05:23:45 PM [INFO] [control_loops]: Balance check: 7
+05:23:47 PM [INFO] [control_loops]: Have waited for 53 minutes...
+05:24:47 PM [INFO] [control_loops]: Balance check: 7
+05:24:50 PM [INFO] [control_loops]: Have waited for 54 minutes...
+05:25:50 PM [INFO] [control_loops]: Balance check: 7
+05:25:53 PM [INFO] [control_loops]: Have waited for 55 minutes...
+05:26:53 PM [INFO] [control_loops]: Balance check: 7
+05:26:55 PM [INFO] [control_loops]: Have waited for 56 minutes...
+05:27:56 PM [INFO] [control_loops]: Balance check: 7
+05:27:58 PM [INFO] [control_loops]: Have waited for 57 minutes...
+05:28:58 PM [INFO] [control_loops]: Balance check: 7
+05:29:01 PM [INFO] [control_loops]: Have waited for 58 minutes...
+05:30:01 PM [INFO] [control_loops]: Balance check: 7
+05:30:04 PM [INFO] [control_loops]: Have waited for 59 minutes...
+05:31:04 PM [INFO] [control_loops]: Balance check: 7
+05:31:08 PM [INFO] [control_loops]: Price did not need to move.
+05:31:08 PM [INFO] [control_loops]: Balance check: -1
+05:31:11 PM [INFO] [control_loops]: Balance check: -1
+05:31:14 PM [INFO] [control_loops]: Balance check: -1
+05:31:17 PM [INFO] [control_loops]: Balance check: -1
+05:31:19 PM [INFO] [control_loops]: Balance check: -1
+05:31:22 PM [INFO] [control_loops]: Balance check: -1
+05:31:25 PM [INFO] [control_loops]: Balance check: -1
+05:31:28 PM [INFO] [control_loops]: Balance check: -1
+05:31:42 PM [INFO] [control_loops]: Balance check: -1
+05:31:44 PM [INFO] [control_loops]: Balance check: 3258
+05:31:47 PM [INFO] [control_loops]: Have waited for 61 minutes...
+05:32:47 PM [INFO] [control_loops]: Balance check: 3258
+05:32:50 PM [INFO] [control_loops]: Have waited for 62 minutes...
+05:33:50 PM [INFO] [control_loops]: Balance check: 3258
+05:33:52 PM [INFO] [control_loops]: Have waited for 63 minutes...
+05:34:53 PM [INFO] [control_loops]: Balance check: 3258
+05:34:55 PM [INFO] [control_loops]: Have waited for 64 minutes...
+05:35:55 PM [INFO] [control_loops]: Balance check: 3258
+05:35:58 PM [INFO] [control_loops]: Have waited for 65 minutes...
+05:36:58 PM [INFO] [control_loops]: Balance check: 3258
+05:37:01 PM [INFO] [control_loops]: Have waited for 66 minutes...
+05:38:01 PM [INFO] [control_loops]: Balance check: 3258
+05:38:03 PM [INFO] [control_loops]: Have waited for 67 minutes...
+05:39:04 PM [INFO] [control_loops]: Balance check: 3258
+05:39:06 PM [INFO] [control_loops]: Have waited for 68 minutes...
+05:40:06 PM [INFO] [control_loops]: Balance check: 3258
+05:40:09 PM [INFO] [control_loops]: Have waited for 69 minutes...
+05:41:09 PM [INFO] [control_loops]: Balance check: 3258
+05:41:14 PM [INFO] [control_loops]: Price did not need to move.
+05:41:14 PM [INFO] [control_loops]: Balance check: -1
+05:41:16 PM [INFO] [control_loops]: Balance check: -1
+05:41:19 PM [INFO] [control_loops]: Balance check: -1
+05:41:22 PM [INFO] [control_loops]: Balance check: -1
+05:41:25 PM [INFO] [control_loops]: Balance check: -1
+05:41:27 PM [INFO] [control_loops]: Balance check: -1
+05:41:30 PM [INFO] [control_loops]: Balance check: 3258
+05:41:33 PM [INFO] [control_loops]: Have waited for 71 minutes...
+05:42:33 PM [INFO] [control_loops]: Balance check: 3258
+05:42:35 PM [INFO] [control_loops]: Have waited for 72 minutes...
+05:43:36 PM [INFO] [control_loops]: Balance check: 3258
+05:43:38 PM [INFO] [control_loops]: Have waited for 73 minutes...
+05:44:38 PM [INFO] [control_loops]: Balance check: 3258
+05:44:41 PM [INFO] [control_loops]: Have waited for 74 minutes...
+05:45:41 PM [INFO] [control_loops]: Balance check: 3258
+05:45:44 PM [INFO] [control_loops]: Have waited for 75 minutes...
+05:46:44 PM [INFO] [control_loops]: Balance check: 3258
+05:46:46 PM [INFO] [control_loops]: Have waited for 76 minutes...
+05:47:47 PM [INFO] [control_loops]: Balance check: 3258
+05:47:49 PM [INFO] [control_loops]: Have waited for 77 minutes...
+05:48:49 PM [INFO] [control_loops]: Balance check: 3258
+05:48:52 PM [INFO] [control_loops]: Have waited for 78 minutes...
+05:49:52 PM [INFO] [control_loops]: Balance check: 3258
+05:49:55 PM [INFO] [control_loops]: Have waited for 79 minutes...
+05:50:55 PM [INFO] [control_loops]: Balance check: 3258
+05:50:59 PM [INFO] [control_loops]: Price did not need to move.
+05:50:59 PM [INFO] [control_loops]: Balance check: -1
+05:51:02 PM [INFO] [control_loops]: Balance check: 73258
+05:51:02 PM [INFO] [control_loops]: It took 72 minute(s) for items to sell.
+05:57:25 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+05:57:25 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+05:57:28 PM [INFO] [control_loops]: Balance check: 3258
+05:57:30 PM [INFO] [control_loops]: Have waited for 1 minutes...
+05:58:30 PM [INFO] [control_loops]: Balance check: 3258
+05:58:33 PM [INFO] [control_loops]: Have waited for 2 minutes...
+05:59:33 PM [INFO] [control_loops]: Balance check: 3258
+05:59:36 PM [INFO] [control_loops]: Have waited for 3 minutes...
+06:00:36 PM [INFO] [control_loops]: Balance check: 3258
+06:00:39 PM [INFO] [control_loops]: Have waited for 4 minutes...
+06:01:39 PM [INFO] [control_loops]: Balance check: 3258
+06:01:41 PM [INFO] [control_loops]: Have waited for 5 minutes...
+06:02:41 PM [INFO] [control_loops]: Balance check: 3258
+06:02:44 PM [INFO] [control_loops]: Have waited for 6 minutes...
+06:03:44 PM [INFO] [control_loops]: Balance check: 3258
+06:03:47 PM [INFO] [control_loops]: Have waited for 7 minutes...
+06:04:47 PM [INFO] [control_loops]: Balance check: 3258
+06:04:50 PM [INFO] [control_loops]: Have waited for 8 minutes...
+06:05:50 PM [INFO] [control_loops]: Balance check: 3258
+06:05:52 PM [INFO] [control_loops]: Have waited for 9 minutes...
+06:06:52 PM [INFO] [control_loops]: Balance check: 3258
+06:06:57 PM [INFO] [control_loops]: Price did not need to move.
+06:06:57 PM [INFO] [control_loops]: Balance check: -1
+06:07:00 PM [INFO] [control_loops]: Balance check: 3258
+06:07:02 PM [INFO] [control_loops]: Have waited for 11 minutes...
+06:08:03 PM [INFO] [control_loops]: Balance check: 3258
+06:08:05 PM [INFO] [control_loops]: Have waited for 12 minutes...
+06:09:05 PM [INFO] [control_loops]: Balance check: 3258
+06:09:08 PM [INFO] [control_loops]: Have waited for 13 minutes...
+06:10:08 PM [INFO] [control_loops]: Balance check: 3258
+06:10:14 PM [INFO] [control_loops]: Sell: 4949
+06:10:14 PM [INFO] [control_loops]: Balance check: 8303
+06:10:14 PM [INFO] [control_loops]: It took 12 minute(s) for items to sell.
+06:16:37 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+06:16:37 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+06:16:40 PM [INFO] [control_loops]: Balance check: 8303
+06:16:40 PM [INFO] [control_loops]: It took 0 minute(s) for items to sell.
+06:21:34 PM [INFO] [control_loops]: A buy sequence was executed at 4700 after 381 refreshes.
+06:21:35 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+06:21:38 PM [INFO] [control_loops]: Balance check: 3603
+06:21:43 PM [INFO] [control_loops]: Have waited for 1 minutes...
+06:22:43 PM [INFO] [control_loops]: Balance check: 3352
+06:22:45 PM [INFO] [control_loops]: Have waited for 2 minutes...
+06:23:45 PM [INFO] [control_loops]: Balance check: 3352
+06:23:48 PM [INFO] [control_loops]: Have waited for 3 minutes...
+06:24:48 PM [INFO] [control_loops]: Balance check: 3352
+06:24:51 PM [INFO] [control_loops]: Have waited for 4 minutes...
+06:25:51 PM [INFO] [control_loops]: Balance check: 3352
+06:25:54 PM [INFO] [control_loops]: Have waited for 5 minutes...
+06:26:54 PM [INFO] [control_loops]: Balance check: 3352
+06:26:56 PM [INFO] [control_loops]: Have waited for 6 minutes...
+06:27:56 PM [INFO] [control_loops]: Balance check: 3352
+06:27:59 PM [INFO] [control_loops]: Have waited for 7 minutes...
+06:28:59 PM [INFO] [control_loops]: Balance check: 3352
+06:29:02 PM [INFO] [control_loops]: Have waited for 8 minutes...
+06:30:02 PM [INFO] [control_loops]: Balance check: 3352
+06:30:05 PM [INFO] [control_loops]: Have waited for 9 minutes...
+06:31:05 PM [INFO] [control_loops]: Balance check: 3352
+06:31:10 PM [INFO] [control_loops]: Price did not need to move.
+06:31:10 PM [INFO] [control_loops]: Balance check: -1
+06:31:12 PM [INFO] [control_loops]: Balance check: -1
+06:31:15 PM [INFO] [control_loops]: Balance check: -1
+06:31:18 PM [INFO] [control_loops]: Balance check: -1
+06:31:21 PM [INFO] [control_loops]: Balance check: -1
+06:31:23 PM [INFO] [control_loops]: Balance check: -1
+06:31:26 PM [INFO] [control_loops]: Balance check: -1
+06:31:29 PM [INFO] [control_loops]: Balance check: 3352
+06:31:31 PM [INFO] [control_loops]: Have waited for 11 minutes...
+06:32:32 PM [INFO] [control_loops]: Balance check: 3352
+06:32:34 PM [INFO] [control_loops]: Have waited for 12 minutes...
+06:33:34 PM [INFO] [control_loops]: Balance check: 3352
+06:33:37 PM [INFO] [control_loops]: Have waited for 13 minutes...
+06:34:37 PM [INFO] [control_loops]: Balance check: 3352
+06:34:40 PM [INFO] [control_loops]: Have waited for 14 minutes...
+06:35:40 PM [INFO] [control_loops]: Balance check: 3352
+06:35:42 PM [INFO] [control_loops]: Have waited for 15 minutes...
+06:36:43 PM [INFO] [control_loops]: Balance check: 3352
+06:36:45 PM [INFO] [control_loops]: Have waited for 16 minutes...
+06:37:45 PM [INFO] [control_loops]: Balance check: 3352
+06:37:48 PM [INFO] [control_loops]: Have waited for 17 minutes...
+06:38:48 PM [INFO] [control_loops]: Balance check: 3352
+06:38:51 PM [INFO] [control_loops]: Have waited for 18 minutes...
+06:39:51 PM [INFO] [control_loops]: Balance check: 3352
+06:39:53 PM [INFO] [control_loops]: Have waited for 19 minutes...
+06:40:53 PM [INFO] [control_loops]: Balance check: 3352
+06:40:58 PM [INFO] [control_loops]: Moving price down.
+06:41:00 PM [ERROR] [control_loops]: move_price_down: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 453, in move_price_down
+    cancel_and_relist()
+  File "C:\Users\barna\Documents\dadbot\utils\control_loops.py", line 442, in cancel_and_relist
+    item_loc = DataCapture().find_first_item_listed(formattedItem)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\Documents\dadbot\utils\actors\vision_funcs.py", line 110, in find_first_item_listed
+    item_loc = pag.locateCenterOnScreen(item, confidence = 0.7)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\barna\anaconda3\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read troll_pelt_4_banner.png because file is missing, has improper permissions, or is an unsupported or invalid format
+06:41:00 PM [INFO] [control_loops]: Balance check: 3352
+06:41:03 PM [INFO] [control_loops]: Have waited for 21 minutes...
+06:42:03 PM [INFO] [control_loops]: Balance check: 3352
+06:42:06 PM [INFO] [control_loops]: Have waited for 22 minutes...
+06:43:06 PM [INFO] [control_loops]: Balance check: 3352
+06:43:09 PM [INFO] [control_loops]: Have waited for 23 minutes...
+06:44:09 PM [INFO] [control_loops]: Balance check: 3352
+06:44:11 PM [INFO] [control_loops]: Have waited for 24 minutes...
+06:45:11 PM [INFO] [control_loops]: Balance check: 3352
+06:45:14 PM [INFO] [control_loops]: Have waited for 25 minutes...
+06:46:14 PM [INFO] [control_loops]: Balance check: 3352
+06:46:17 PM [INFO] [control_loops]: Have waited for 26 minutes...
+06:47:17 PM [INFO] [control_loops]: Balance check: 3352
+06:47:19 PM [INFO] [control_loops]: Have waited for 27 minutes...
+06:48:20 PM [INFO] [control_loops]: Balance check: 3352
+06:48:22 PM [INFO] [control_loops]: Have waited for 28 minutes...
+06:49:22 PM [INFO] [control_loops]: Balance check: 3352
+06:49:25 PM [INFO] [control_loops]: Have waited for 29 minutes...
+06:50:25 PM [INFO] [control_loops]: Balance check: 3352
+06:50:29 PM [INFO] [control_loops]: Price did not need to move.
+06:50:30 PM [INFO] [control_loops]: Balance check: -1
+06:50:32 PM [INFO] [control_loops]: Balance check: 73352
+06:50:32 PM [INFO] [control_loops]: It took 27 minute(s) for items to sell.
+06:56:35 PM [INFO] [control_loops]: No buys were attempted for 475 refreshes...
+06:56:35 PM [INFO] [control_loops]: Rolling Avg Buy Time: 3 minute(s)
+06:56:37 PM [INFO] [control_loops]: Balance check: 3352
+06:56:40 PM [INFO] [control_loops]: Have waited for 1 minutes...
+06:57:40 PM [INFO] [control_loops]: Balance check: 3352
+06:57:43 PM [INFO] [control_loops]: Have waited for 2 minutes...
+06:58:43 PM [INFO] [control_loops]: Balance check: 3352
+06:58:45 PM [INFO] [control_loops]: Have waited for 3 minutes...
+06:59:46 PM [INFO] [control_loops]: Balance check: 3352
+06:59:48 PM [INFO] [control_loops]: Have waited for 4 minutes...
+07:00:48 PM [INFO] [control_loops]: Balance check: 3352
+07:00:51 PM [INFO] [control_loops]: Have waited for 5 minutes...
+07:01:51 PM [INFO] [control_loops]: Balance check: 3352
+07:01:54 PM [INFO] [control_loops]: Have waited for 6 minutes...
+07:02:54 PM [INFO] [control_loops]: Balance check: 3352
+07:02:56 PM [INFO] [control_loops]: Have waited for 7 minutes...
+07:03:57 PM [INFO] [control_loops]: Balance check: 3352
+07:03:59 PM [INFO] [control_loops]: Have waited for 8 minutes...
+07:04:59 PM [INFO] [control_loops]: Balance check: 3352
+07:05:02 PM [INFO] [control_loops]: Have waited for 9 minutes...
+07:06:02 PM [INFO] [control_loops]: Balance check: 3352
+07:06:06 PM [INFO] [control_loops]: Price did not need to move.
+07:06:07 PM [INFO] [control_loops]: Balance check: -1
+07:06:09 PM [INFO] [control_loops]: Balance check: -1
+07:06:12 PM [INFO] [control_loops]: Balance check: -1
+07:06:15 PM [INFO] [control_loops]: Balance check: -1
+07:06:17 PM [INFO] [control_loops]: Balance check: -1
+07:06:20 PM [INFO] [control_loops]: Balance check: -1
+07:06:23 PM [INFO] [control_loops]: Balance check: -1
+07:06:26 PM [INFO] [control_loops]: Balance check: 3352
+07:06:28 PM [INFO] [control_loops]: Have waited for 11 minutes...
+07:07:28 PM [INFO] [control_loops]: Balance check: 3352
+07:07:31 PM [INFO] [control_loops]: Have waited for 12 minutes...
+07:08:31 PM [INFO] [control_loops]: Balance check: 3352
+07:08:34 PM [INFO] [control_loops]: Have waited for 13 minutes...
+07:09:34 PM [INFO] [control_loops]: Balance check: 3352
+07:09:36 PM [INFO] [control_loops]: Have waited for 14 minutes...
+07:10:37 PM [INFO] [control_loops]: Balance check: 3352
+07:10:39 PM [INFO] [control_loops]: Have waited for 15 minutes...
+07:11:39 PM [INFO] [control_loops]: Balance check: 3352
+07:11:42 PM [INFO] [control_loops]: Have waited for 16 minutes...
+07:12:42 PM [INFO] [control_loops]: Balance check: 3352
+07:12:45 PM [INFO] [control_loops]: Have waited for 17 minutes...
+07:13:45 PM [INFO] [control_loops]: Balance check: 3352
+07:13:47 PM [INFO] [control_loops]: Have waited for 18 minutes...
+07:14:48 PM [INFO] [control_loops]: Balance check: 3352
+07:14:50 PM [INFO] [control_loops]: Have waited for 19 minutes...
+07:15:50 PM [INFO] [control_loops]: Balance check: 3352
+07:15:55 PM [INFO] [control_loops]: Price did not need to move.
+07:15:55 PM [INFO] [control_loops]: Balance check: -1
+07:15:58 PM [INFO] [control_loops]: Balance check: 73352
+07:15:58 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+07:16:32 PM [INFO] [control_loops]: A buy sequence was executed at 4500 after 39 refreshes.
+07:16:34 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+07:16:36 PM [INFO] [control_loops]: Balance check: 3352
+07:16:39 PM [INFO] [control_loops]: Have waited for 1 minutes...
+07:17:39 PM [INFO] [control_loops]: Balance check: 3352
+07:17:42 PM [INFO] [control_loops]: Have waited for 2 minutes...
+07:18:42 PM [INFO] [control_loops]: Balance check: 3352
+07:18:44 PM [INFO] [control_loops]: Have waited for 3 minutes...
+07:19:44 PM [INFO] [control_loops]: Balance check: 3352
+07:19:47 PM [INFO] [control_loops]: Have waited for 4 minutes...
+07:20:47 PM [INFO] [control_loops]: Balance check: 3352
+07:20:50 PM [INFO] [control_loops]: Have waited for 5 minutes...
+07:21:50 PM [INFO] [control_loops]: Balance check: 3352
+07:21:52 PM [INFO] [control_loops]: Have waited for 6 minutes...
+07:22:53 PM [INFO] [control_loops]: Balance check: 3352
+07:22:55 PM [INFO] [control_loops]: Have waited for 7 minutes...
+07:23:55 PM [INFO] [control_loops]: Balance check: 3352
+07:23:58 PM [INFO] [control_loops]: Have waited for 8 minutes...
+07:24:58 PM [INFO] [control_loops]: Balance check: 3352
+07:25:01 PM [INFO] [control_loops]: Have waited for 9 minutes...
+07:26:01 PM [INFO] [control_loops]: Balance check: 3352
+07:26:05 PM [INFO] [control_loops]: Price did not need to move.
+07:26:05 PM [INFO] [control_loops]: Balance check: -1
+07:26:08 PM [INFO] [control_loops]: Balance check: -1
+07:26:11 PM [INFO] [control_loops]: Balance check: -1
+07:26:14 PM [INFO] [control_loops]: Balance check: -1
+07:26:16 PM [INFO] [control_loops]: Balance check: -1
+07:26:19 PM [INFO] [control_loops]: Balance check: -1
+07:26:22 PM [INFO] [control_loops]: Balance check: -1
+07:26:25 PM [INFO] [control_loops]: Balance check: 3352
+07:26:27 PM [INFO] [control_loops]: Have waited for 11 minutes...
+07:27:27 PM [INFO] [control_loops]: Balance check: 3352
+07:27:30 PM [INFO] [control_loops]: Have waited for 12 minutes...
+07:28:30 PM [INFO] [control_loops]: Balance check: 3352
+07:28:33 PM [INFO] [control_loops]: Have waited for 13 minutes...
+07:29:33 PM [INFO] [control_loops]: Balance check: 3352
+07:29:35 PM [INFO] [control_loops]: Have waited for 14 minutes...
+07:30:35 PM [INFO] [control_loops]: Balance check: 3352
+07:30:38 PM [INFO] [control_loops]: Have waited for 15 minutes...
+07:31:38 PM [INFO] [control_loops]: Balance check: 3352
+07:31:41 PM [INFO] [control_loops]: Have waited for 16 minutes...
+07:32:41 PM [INFO] [control_loops]: Balance check: 3352
+07:32:44 PM [INFO] [control_loops]: Have waited for 17 minutes...
+07:33:44 PM [INFO] [control_loops]: Balance check: 3352
+07:33:46 PM [INFO] [control_loops]: Have waited for 18 minutes...
+07:34:46 PM [INFO] [control_loops]: Balance check: 3352
+07:34:49 PM [INFO] [control_loops]: Have waited for 19 minutes...
+07:35:49 PM [INFO] [control_loops]: Balance check: 3352
+07:35:54 PM [INFO] [control_loops]: Price did not need to move.
+07:35:54 PM [INFO] [control_loops]: Balance check: -1
+07:35:56 PM [INFO] [control_loops]: Balance check: 73352
+07:35:56 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+07:36:02 PM [INFO] [control_loops]: A buy sequence was executed at 3999 after 1 refreshes.
+07:36:04 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+07:36:06 PM [INFO] [control_loops]: Balance check: 3352
+07:36:09 PM [INFO] [control_loops]: Have waited for 1 minutes...
+07:37:09 PM [INFO] [control_loops]: Balance check: 3352
+07:37:12 PM [INFO] [control_loops]: Have waited for 2 minutes...
+07:38:12 PM [INFO] [control_loops]: Balance check: 3352
+07:38:15 PM [INFO] [control_loops]: Have waited for 3 minutes...
+07:39:15 PM [INFO] [control_loops]: Balance check: 3352
+07:39:17 PM [INFO] [control_loops]: Have waited for 4 minutes...
+07:40:17 PM [INFO] [control_loops]: Balance check: 3352
+07:40:20 PM [INFO] [control_loops]: Have waited for 5 minutes...
+07:41:20 PM [INFO] [control_loops]: Balance check: 3352
+07:41:23 PM [INFO] [control_loops]: Have waited for 6 minutes...
+07:42:23 PM [INFO] [control_loops]: Balance check: 3352
+07:42:25 PM [INFO] [control_loops]: Have waited for 7 minutes...
+07:43:26 PM [INFO] [control_loops]: Balance check: 3352
+07:43:28 PM [INFO] [control_loops]: Have waited for 8 minutes...
+07:44:28 PM [INFO] [control_loops]: Balance check: 3352
+07:44:31 PM [INFO] [control_loops]: Have waited for 9 minutes...
+07:45:31 PM [INFO] [control_loops]: Balance check: 3352
+07:45:36 PM [INFO] [control_loops]: Price did not need to move.
+07:45:36 PM [INFO] [control_loops]: Balance check: -1
+07:45:38 PM [INFO] [control_loops]: Balance check: -1
+07:45:41 PM [INFO] [control_loops]: Balance check: -1
+07:45:44 PM [INFO] [control_loops]: Balance check: -1
+07:45:47 PM [INFO] [control_loops]: Balance check: -1
+07:45:49 PM [INFO] [control_loops]: Balance check: -1
+07:45:52 PM [INFO] [control_loops]: Balance check: -1
+07:45:55 PM [INFO] [control_loops]: Balance check: 3352
+07:45:57 PM [INFO] [control_loops]: Have waited for 11 minutes...
+07:46:57 PM [INFO] [control_loops]: Balance check: 3352
+07:47:00 PM [INFO] [control_loops]: Have waited for 12 minutes...
+07:48:00 PM [INFO] [control_loops]: Balance check: 3352
+07:48:03 PM [INFO] [control_loops]: Have waited for 13 minutes...
+07:49:03 PM [INFO] [control_loops]: Balance check: 3352
+07:49:06 PM [INFO] [control_loops]: Have waited for 14 minutes...
+07:50:06 PM [INFO] [control_loops]: Balance check: 3352
+07:50:08 PM [INFO] [control_loops]: Have waited for 15 minutes...
+07:51:08 PM [INFO] [control_loops]: Balance check: 3352
+07:51:11 PM [INFO] [control_loops]: Have waited for 16 minutes...
+07:52:11 PM [INFO] [control_loops]: Balance check: 3352
+07:52:14 PM [INFO] [control_loops]: Have waited for 17 minutes...
+07:53:14 PM [INFO] [control_loops]: Balance check: 3352
+07:53:17 PM [INFO] [control_loops]: Have waited for 18 minutes...
+07:54:17 PM [INFO] [control_loops]: Balance check: 3352
+07:54:19 PM [INFO] [control_loops]: Have waited for 19 minutes...
+07:55:19 PM [INFO] [control_loops]: Balance check: 3352
+07:55:24 PM [INFO] [control_loops]: Price did not need to move.
+07:55:24 PM [INFO] [control_loops]: Balance check: -1
+07:55:27 PM [INFO] [control_loops]: Balance check: 73352
+07:55:27 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+08:01:49 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+08:01:49 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+08:01:51 PM [INFO] [control_loops]: Balance check: 3352
+08:01:54 PM [INFO] [control_loops]: Have waited for 1 minutes...
+08:02:54 PM [INFO] [control_loops]: Balance check: 3352
+08:02:57 PM [INFO] [control_loops]: Have waited for 2 minutes...
+08:03:57 PM [INFO] [control_loops]: Balance check: 3352
+08:04:00 PM [INFO] [control_loops]: Have waited for 3 minutes...
+08:05:00 PM [INFO] [control_loops]: Balance check: 3352
+08:05:02 PM [INFO] [control_loops]: Have waited for 4 minutes...
+08:06:02 PM [INFO] [control_loops]: Balance check: 3352
+08:06:05 PM [INFO] [control_loops]: Have waited for 5 minutes...
+08:07:05 PM [INFO] [control_loops]: Balance check: 3352
+08:07:08 PM [INFO] [control_loops]: Have waited for 6 minutes...
+08:08:08 PM [INFO] [control_loops]: Balance check: 3352
+08:08:10 PM [INFO] [control_loops]: Have waited for 7 minutes...
+08:09:11 PM [INFO] [control_loops]: Balance check: 3352
+08:09:13 PM [INFO] [control_loops]: Have waited for 8 minutes...
+08:10:13 PM [INFO] [control_loops]: Balance check: 3352
+08:10:16 PM [INFO] [control_loops]: Have waited for 9 minutes...
+08:11:16 PM [INFO] [control_loops]: Balance check: 3352
+08:11:21 PM [INFO] [control_loops]: Price did not need to move.
+08:11:21 PM [INFO] [control_loops]: Balance check: -1
+08:11:23 PM [INFO] [control_loops]: Balance check: -1
+08:11:26 PM [INFO] [control_loops]: Balance check: -1
+08:11:29 PM [INFO] [control_loops]: Balance check: -1
+08:11:31 PM [INFO] [control_loops]: Balance check: -1
+08:11:34 PM [INFO] [control_loops]: Balance check: -1
+08:11:37 PM [INFO] [control_loops]: Balance check: -1
+08:11:40 PM [INFO] [control_loops]: Balance check: 3352
+08:11:42 PM [INFO] [control_loops]: Have waited for 11 minutes...
+08:12:42 PM [INFO] [control_loops]: Balance check: 3352
+08:12:45 PM [INFO] [control_loops]: Have waited for 12 minutes...
+08:13:45 PM [INFO] [control_loops]: Balance check: 3352
+08:13:48 PM [INFO] [control_loops]: Have waited for 13 minutes...
+08:14:48 PM [INFO] [control_loops]: Balance check: 3352
+08:14:51 PM [INFO] [control_loops]: Have waited for 14 minutes...
+08:15:51 PM [INFO] [control_loops]: Balance check: 3352
+08:15:53 PM [INFO] [control_loops]: Have waited for 15 minutes...
+08:16:53 PM [INFO] [control_loops]: Balance check: 3352
+08:16:56 PM [INFO] [control_loops]: Have waited for 16 minutes...
+08:17:56 PM [INFO] [control_loops]: Balance check: 3352
+08:17:59 PM [INFO] [control_loops]: Have waited for 17 minutes...
+08:18:59 PM [INFO] [control_loops]: Balance check: 3352
+08:19:01 PM [INFO] [control_loops]: Have waited for 18 minutes...
+08:20:02 PM [INFO] [control_loops]: Balance check: 3352
+08:20:04 PM [INFO] [control_loops]: Have waited for 19 minutes...
+08:21:04 PM [INFO] [control_loops]: Balance check: 3352
+08:21:09 PM [INFO] [control_loops]: Price did not need to move.
+08:21:09 PM [INFO] [control_loops]: Balance check: -1
+08:21:12 PM [INFO] [control_loops]: Balance check: 73352
+08:21:12 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+08:21:54 PM [INFO] [control_loops]: A buy sequence was executed at 4500 after 49 refreshes.
+08:21:55 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+08:21:58 PM [INFO] [control_loops]: Balance check: 3352
+08:22:01 PM [INFO] [control_loops]: Have waited for 1 minutes...
+08:23:01 PM [INFO] [control_loops]: Balance check: 3352
+08:23:03 PM [INFO] [control_loops]: Have waited for 2 minutes...
+08:24:03 PM [INFO] [control_loops]: Balance check: 3352
+08:24:06 PM [INFO] [control_loops]: Have waited for 3 minutes...
+08:25:06 PM [INFO] [control_loops]: Balance check: 3352
+08:25:09 PM [INFO] [control_loops]: Have waited for 4 minutes...
+08:26:09 PM [INFO] [control_loops]: Balance check: 3352
+08:26:11 PM [INFO] [control_loops]: Have waited for 5 minutes...
+08:27:12 PM [INFO] [control_loops]: Balance check: 3352
+08:27:14 PM [INFO] [control_loops]: Have waited for 6 minutes...
+08:28:14 PM [INFO] [control_loops]: Balance check: 3352
+08:28:17 PM [INFO] [control_loops]: Have waited for 7 minutes...
+08:29:17 PM [INFO] [control_loops]: Balance check: 3352
+08:29:20 PM [INFO] [control_loops]: Have waited for 8 minutes...
+08:30:20 PM [INFO] [control_loops]: Balance check: 3352
+08:30:22 PM [INFO] [control_loops]: Have waited for 9 minutes...
+08:31:22 PM [INFO] [control_loops]: Balance check: 3352
+08:31:27 PM [INFO] [control_loops]: Price did not need to move.
+08:31:27 PM [INFO] [control_loops]: Balance check: -1
+08:31:30 PM [INFO] [control_loops]: Balance check: -1
+08:31:33 PM [INFO] [control_loops]: Balance check: -1
+08:31:35 PM [INFO] [control_loops]: Balance check: -1
+08:31:38 PM [INFO] [control_loops]: Balance check: -1
+08:31:41 PM [INFO] [control_loops]: Balance check: -1
+08:31:44 PM [INFO] [control_loops]: Balance check: -1
+08:31:46 PM [INFO] [control_loops]: Balance check: 3352
+08:31:49 PM [INFO] [control_loops]: Have waited for 11 minutes...
+08:32:49 PM [INFO] [control_loops]: Balance check: 3352
+08:32:52 PM [INFO] [control_loops]: Have waited for 12 minutes...
+08:33:52 PM [INFO] [control_loops]: Balance check: 3352
+08:33:54 PM [INFO] [control_loops]: Have waited for 13 minutes...
+08:34:55 PM [INFO] [control_loops]: Balance check: 3352
+08:34:57 PM [INFO] [control_loops]: Have waited for 14 minutes...
+08:35:57 PM [INFO] [control_loops]: Balance check: 3352
+08:36:00 PM [INFO] [control_loops]: Have waited for 15 minutes...
+08:37:00 PM [INFO] [control_loops]: Balance check: 3352
+08:37:03 PM [INFO] [control_loops]: Have waited for 16 minutes...
+08:38:03 PM [INFO] [control_loops]: Balance check: 3352
+08:38:05 PM [INFO] [control_loops]: Have waited for 17 minutes...
+08:39:06 PM [INFO] [control_loops]: Balance check: 3352
+08:39:08 PM [INFO] [control_loops]: Have waited for 18 minutes...
+08:40:08 PM [INFO] [control_loops]: Balance check: 3352
+08:40:11 PM [INFO] [control_loops]: Have waited for 19 minutes...
+08:41:11 PM [INFO] [control_loops]: Balance check: 3352
+08:41:15 PM [INFO] [control_loops]: Price did not need to move.
+08:41:16 PM [INFO] [control_loops]: Balance check: -1
+08:41:18 PM [INFO] [control_loops]: Balance check: 73352
+08:41:18 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+08:44:58 PM [INFO] [control_loops]: A buy sequence was executed at 4499 after 283 refreshes.
+08:44:59 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+08:45:02 PM [INFO] [control_loops]: Balance check: 3352
+08:45:04 PM [INFO] [control_loops]: Have waited for 1 minutes...
+08:46:05 PM [INFO] [control_loops]: Balance check: 3352
+08:46:07 PM [INFO] [control_loops]: Have waited for 2 minutes...
+08:47:07 PM [INFO] [control_loops]: Balance check: 3352
+08:47:10 PM [INFO] [control_loops]: Have waited for 3 minutes...
+08:48:10 PM [INFO] [control_loops]: Balance check: 3352
+08:48:13 PM [INFO] [control_loops]: Have waited for 4 minutes...
+08:49:13 PM [INFO] [control_loops]: Balance check: 3352
+08:49:15 PM [INFO] [control_loops]: Have waited for 5 minutes...
+08:50:16 PM [INFO] [control_loops]: Balance check: 3352
+08:50:18 PM [INFO] [control_loops]: Have waited for 6 minutes...
+08:51:18 PM [INFO] [control_loops]: Balance check: 3352
+08:51:21 PM [INFO] [control_loops]: Have waited for 7 minutes...
+08:52:21 PM [INFO] [control_loops]: Balance check: 3352
+08:52:24 PM [INFO] [control_loops]: Have waited for 8 minutes...
+08:53:24 PM [INFO] [control_loops]: Balance check: 3352
+08:53:26 PM [INFO] [control_loops]: Have waited for 9 minutes...
+08:54:26 PM [INFO] [control_loops]: Balance check: 3352
+08:54:31 PM [INFO] [control_loops]: Price did not need to move.
+08:54:31 PM [INFO] [control_loops]: Balance check: -1
+08:54:34 PM [INFO] [control_loops]: Balance check: -1
+08:54:36 PM [INFO] [control_loops]: Balance check: -1
+08:54:39 PM [INFO] [control_loops]: Balance check: -1
+08:54:42 PM [INFO] [control_loops]: Balance check: -1
+08:54:45 PM [INFO] [control_loops]: Balance check: -1
+08:54:47 PM [INFO] [control_loops]: Balance check: -1
+08:54:50 PM [INFO] [control_loops]: Balance check: 3352
+08:54:53 PM [INFO] [control_loops]: Have waited for 11 minutes...
+08:55:53 PM [INFO] [control_loops]: Balance check: 3352
+08:55:55 PM [INFO] [control_loops]: Have waited for 12 minutes...
+08:56:55 PM [INFO] [control_loops]: Balance check: 3352
+08:56:58 PM [INFO] [control_loops]: Have waited for 13 minutes...
+08:57:58 PM [INFO] [control_loops]: Balance check: 3352
+08:58:01 PM [INFO] [control_loops]: Have waited for 14 minutes...
+08:59:01 PM [INFO] [control_loops]: Balance check: 3352
+08:59:04 PM [INFO] [control_loops]: Have waited for 15 minutes...
+09:00:04 PM [INFO] [control_loops]: Balance check: 3352
+09:00:06 PM [INFO] [control_loops]: Have waited for 16 minutes...
+09:01:06 PM [INFO] [control_loops]: Balance check: 3352
+09:01:09 PM [INFO] [control_loops]: Have waited for 17 minutes...
+09:02:09 PM [INFO] [control_loops]: Balance check: 3352
+09:02:12 PM [INFO] [control_loops]: Have waited for 18 minutes...
+09:03:12 PM [INFO] [control_loops]: Balance check: 3352
+09:03:15 PM [INFO] [control_loops]: Have waited for 19 minutes...
+09:04:15 PM [INFO] [control_loops]: Balance check: 3352
+09:04:19 PM [INFO] [control_loops]: Price did not need to move.
+09:04:19 PM [INFO] [control_loops]: Balance check: -1
+09:04:22 PM [INFO] [control_loops]: Balance check: 73352
+09:04:22 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+09:10:44 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+09:10:44 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+09:10:46 PM [INFO] [control_loops]: Balance check: 3352
+09:10:49 PM [INFO] [control_loops]: Have waited for 1 minutes...
+09:11:49 PM [INFO] [control_loops]: Balance check: 3352
+09:11:51 PM [INFO] [control_loops]: Have waited for 2 minutes...
+09:12:52 PM [INFO] [control_loops]: Balance check: 3352
+09:12:54 PM [INFO] [control_loops]: Have waited for 3 minutes...
+09:13:54 PM [INFO] [control_loops]: Balance check: 3352
+09:13:57 PM [INFO] [control_loops]: Have waited for 4 minutes...
+09:14:57 PM [INFO] [control_loops]: Balance check: 3352
+09:15:00 PM [INFO] [control_loops]: Have waited for 5 minutes...
+09:16:00 PM [INFO] [control_loops]: Balance check: 3352
+09:16:02 PM [INFO] [control_loops]: Have waited for 6 minutes...
+09:17:02 PM [INFO] [control_loops]: Balance check: 3352
+09:17:05 PM [INFO] [control_loops]: Have waited for 7 minutes...
+09:18:05 PM [INFO] [control_loops]: Balance check: 3352
+09:18:08 PM [INFO] [control_loops]: Have waited for 8 minutes...
+09:19:08 PM [INFO] [control_loops]: Balance check: 3352
+09:19:11 PM [INFO] [control_loops]: Have waited for 9 minutes...
+09:20:11 PM [INFO] [control_loops]: Balance check: 3352
+09:20:15 PM [INFO] [control_loops]: Price did not need to move.
+09:20:15 PM [INFO] [control_loops]: Balance check: -1
+09:20:18 PM [INFO] [control_loops]: Balance check: -1
+09:20:21 PM [INFO] [control_loops]: Balance check: -1
+09:20:23 PM [INFO] [control_loops]: Balance check: -1
+09:20:26 PM [INFO] [control_loops]: Balance check: -1
+09:20:29 PM [INFO] [control_loops]: Balance check: -1
+09:20:32 PM [INFO] [control_loops]: Balance check: -1
+09:20:34 PM [INFO] [control_loops]: Balance check: 3352
+09:20:37 PM [INFO] [control_loops]: Have waited for 11 minutes...
+09:21:37 PM [INFO] [control_loops]: Balance check: 3352
+09:21:40 PM [INFO] [control_loops]: Have waited for 12 minutes...
+09:22:40 PM [INFO] [control_loops]: Balance check: 3352
+09:22:42 PM [INFO] [control_loops]: Have waited for 13 minutes...
+09:23:43 PM [INFO] [control_loops]: Balance check: 3352
+09:23:45 PM [INFO] [control_loops]: Have waited for 14 minutes...
+09:24:45 PM [INFO] [control_loops]: Balance check: 3352
+09:24:48 PM [INFO] [control_loops]: Have waited for 15 minutes...
+09:25:48 PM [INFO] [control_loops]: Balance check: 3352
+09:25:51 PM [INFO] [control_loops]: Have waited for 16 minutes...
+09:26:51 PM [INFO] [control_loops]: Balance check: 3352
+09:26:53 PM [INFO] [control_loops]: Have waited for 17 minutes...
+09:27:53 PM [INFO] [control_loops]: Balance check: 3352
+09:27:56 PM [INFO] [control_loops]: Have waited for 18 minutes...
+09:28:56 PM [INFO] [control_loops]: Balance check: 3352
+09:28:59 PM [INFO] [control_loops]: Have waited for 19 minutes...
+09:29:59 PM [INFO] [control_loops]: Balance check: 3352
+09:30:03 PM [INFO] [control_loops]: Price did not need to move.
+09:30:03 PM [INFO] [control_loops]: Balance check: -1
+09:30:06 PM [INFO] [control_loops]: Balance check: 73352
+09:30:06 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+09:32:01 PM [INFO] [control_loops]: A buy sequence was executed at 4400 after 145 refreshes.
+09:32:02 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+09:32:05 PM [INFO] [control_loops]: Balance check: 3352
+09:32:08 PM [INFO] [control_loops]: Have waited for 1 minutes...
+09:33:08 PM [INFO] [control_loops]: Balance check: 3352
+09:33:10 PM [INFO] [control_loops]: Have waited for 2 minutes...
+09:34:10 PM [INFO] [control_loops]: Balance check: 3352
+09:34:13 PM [INFO] [control_loops]: Have waited for 3 minutes...
+09:35:13 PM [INFO] [control_loops]: Balance check: 3352
+09:35:16 PM [INFO] [control_loops]: Have waited for 4 minutes...
+09:36:16 PM [INFO] [control_loops]: Balance check: 3352
+09:36:19 PM [INFO] [control_loops]: Have waited for 5 minutes...
+09:37:19 PM [INFO] [control_loops]: Balance check: 3352
+09:37:21 PM [INFO] [control_loops]: Have waited for 6 minutes...
+09:38:21 PM [INFO] [control_loops]: Balance check: 3352
+09:38:24 PM [INFO] [control_loops]: Have waited for 7 minutes...
+09:39:24 PM [INFO] [control_loops]: Balance check: 3352
+09:39:27 PM [INFO] [control_loops]: Have waited for 8 minutes...
+09:40:27 PM [INFO] [control_loops]: Balance check: 3352
+09:40:29 PM [INFO] [control_loops]: Have waited for 9 minutes...
+09:41:30 PM [INFO] [control_loops]: Balance check: 3352
+09:41:34 PM [INFO] [control_loops]: Price did not need to move.
+09:41:34 PM [INFO] [control_loops]: Balance check: -1
+09:41:37 PM [INFO] [control_loops]: Balance check: -1
+09:41:40 PM [INFO] [control_loops]: Balance check: -1
+09:41:42 PM [INFO] [control_loops]: Balance check: -1
+09:41:45 PM [INFO] [control_loops]: Balance check: -1
+09:41:48 PM [INFO] [control_loops]: Balance check: -1
+09:41:51 PM [INFO] [control_loops]: Balance check: -1
+09:41:53 PM [INFO] [control_loops]: Balance check: 3352
+09:41:56 PM [INFO] [control_loops]: Have waited for 11 minutes...
+09:42:56 PM [INFO] [control_loops]: Balance check: 3352
+09:42:59 PM [INFO] [control_loops]: Have waited for 12 minutes...
+09:43:59 PM [INFO] [control_loops]: Balance check: 3352
+09:44:01 PM [INFO] [control_loops]: Have waited for 13 minutes...
+09:45:02 PM [INFO] [control_loops]: Balance check: 3352
+09:45:04 PM [INFO] [control_loops]: Have waited for 14 minutes...
+09:46:04 PM [INFO] [control_loops]: Balance check: 3352
+09:46:07 PM [INFO] [control_loops]: Have waited for 15 minutes...
+09:47:07 PM [INFO] [control_loops]: Balance check: 3352
+09:47:10 PM [INFO] [control_loops]: Have waited for 16 minutes...
+09:48:10 PM [INFO] [control_loops]: Balance check: 3352
+09:48:12 PM [INFO] [control_loops]: Have waited for 17 minutes...
+09:49:12 PM [INFO] [control_loops]: Balance check: 3352
+09:49:15 PM [INFO] [control_loops]: Have waited for 18 minutes...
+09:50:15 PM [INFO] [control_loops]: Balance check: 3352
+09:50:18 PM [INFO] [control_loops]: Have waited for 19 minutes...
+09:51:18 PM [INFO] [control_loops]: Balance check: 3352
+09:51:23 PM [INFO] [control_loops]: Price did not need to move.
+09:51:23 PM [INFO] [control_loops]: Balance check: -1
+09:51:25 PM [INFO] [control_loops]: Balance check: 73352
+09:51:25 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+09:57:47 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+09:57:47 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+09:57:50 PM [INFO] [control_loops]: Balance check: 3352
+09:57:53 PM [INFO] [control_loops]: Have waited for 1 minutes...
+09:58:53 PM [INFO] [control_loops]: Balance check: 3352
+09:58:55 PM [INFO] [control_loops]: Have waited for 2 minutes...
+09:59:55 PM [INFO] [control_loops]: Balance check: 3352
+09:59:58 PM [INFO] [control_loops]: Have waited for 3 minutes...
+10:00:58 PM [INFO] [control_loops]: Balance check: 3352
+10:01:01 PM [INFO] [control_loops]: Have waited for 4 minutes...
+10:02:01 PM [INFO] [control_loops]: Balance check: 3352
+10:02:04 PM [INFO] [control_loops]: Have waited for 5 minutes...
+10:03:04 PM [INFO] [control_loops]: Balance check: 3352
+10:03:06 PM [INFO] [control_loops]: Have waited for 6 minutes...
+10:04:06 PM [INFO] [control_loops]: Balance check: 3352
+10:04:09 PM [INFO] [control_loops]: Have waited for 7 minutes...
+10:05:09 PM [INFO] [control_loops]: Balance check: 3352
+10:05:12 PM [INFO] [control_loops]: Have waited for 8 minutes...
+10:06:12 PM [INFO] [control_loops]: Balance check: 3352
+10:06:14 PM [INFO] [control_loops]: Have waited for 9 minutes...
+10:07:15 PM [INFO] [control_loops]: Balance check: 3352
+10:07:19 PM [INFO] [control_loops]: Price did not need to move.
+10:07:19 PM [INFO] [control_loops]: Balance check: -1
+10:07:22 PM [INFO] [control_loops]: Balance check: -1
+10:07:25 PM [INFO] [control_loops]: Balance check: -1
+10:07:27 PM [INFO] [control_loops]: Balance check: -1
+10:07:30 PM [INFO] [control_loops]: Balance check: -1
+10:07:33 PM [INFO] [control_loops]: Balance check: -1
+10:07:35 PM [INFO] [control_loops]: Balance check: -1
+10:07:38 PM [INFO] [control_loops]: Balance check: 3352
+10:07:41 PM [INFO] [control_loops]: Have waited for 11 minutes...
+10:08:41 PM [INFO] [control_loops]: Balance check: 3352
+10:08:44 PM [INFO] [control_loops]: Have waited for 12 minutes...
+10:09:44 PM [INFO] [control_loops]: Balance check: 3352
+10:09:46 PM [INFO] [control_loops]: Have waited for 13 minutes...
+10:10:46 PM [INFO] [control_loops]: Balance check: 3352
+10:10:49 PM [INFO] [control_loops]: Have waited for 14 minutes...
+10:11:49 PM [INFO] [control_loops]: Balance check: 3352
+10:11:52 PM [INFO] [control_loops]: Have waited for 15 minutes...
+10:12:52 PM [INFO] [control_loops]: Balance check: 3352
+10:12:54 PM [INFO] [control_loops]: Have waited for 16 minutes...
+10:13:55 PM [INFO] [control_loops]: Balance check: 3352
+10:13:57 PM [INFO] [control_loops]: Have waited for 17 minutes...
+10:14:57 PM [INFO] [control_loops]: Balance check: 3352
+10:15:00 PM [INFO] [control_loops]: Have waited for 18 minutes...
+10:16:00 PM [INFO] [control_loops]: Balance check: 3352
+10:16:03 PM [INFO] [control_loops]: Have waited for 19 minutes...
+10:17:03 PM [INFO] [control_loops]: Balance check: 3352
+10:17:07 PM [INFO] [control_loops]: Price did not need to move.
+10:17:07 PM [INFO] [control_loops]: Balance check: -1
+10:17:10 PM [INFO] [control_loops]: Balance check: 73352
+10:17:10 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+10:19:29 PM [INFO] [control_loops]: A buy sequence was executed at 4600 after 177 refreshes.
+10:19:31 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+10:19:33 PM [INFO] [control_loops]: Balance check: 3352
+10:19:36 PM [INFO] [control_loops]: Have waited for 1 minutes...
+10:20:36 PM [INFO] [control_loops]: Balance check: 3352
+10:20:39 PM [INFO] [control_loops]: Have waited for 2 minutes...
+10:21:39 PM [INFO] [control_loops]: Balance check: 3352
+10:21:41 PM [INFO] [control_loops]: Have waited for 3 minutes...
+10:22:41 PM [INFO] [control_loops]: Balance check: 3352
+10:22:44 PM [INFO] [control_loops]: Have waited for 4 minutes...
+10:23:44 PM [INFO] [control_loops]: Balance check: 3352
+10:23:47 PM [INFO] [control_loops]: Have waited for 5 minutes...
+10:24:47 PM [INFO] [control_loops]: Balance check: 3352
+10:24:50 PM [INFO] [control_loops]: Have waited for 6 minutes...
+10:25:50 PM [INFO] [control_loops]: Balance check: 3352
+10:25:52 PM [INFO] [control_loops]: Have waited for 7 minutes...
+10:26:52 PM [INFO] [control_loops]: Balance check: 3352
+10:26:55 PM [INFO] [control_loops]: Have waited for 8 minutes...
+10:27:55 PM [INFO] [control_loops]: Balance check: 3352
+10:27:58 PM [INFO] [control_loops]: Have waited for 9 minutes...
+10:28:58 PM [INFO] [control_loops]: Balance check: 3352
+10:29:02 PM [INFO] [control_loops]: Price did not need to move.
+10:29:02 PM [INFO] [control_loops]: Balance check: -1
+10:29:05 PM [INFO] [control_loops]: Balance check: -1
+10:29:08 PM [INFO] [control_loops]: Balance check: -1
+10:29:11 PM [INFO] [control_loops]: Balance check: -1
+10:29:13 PM [INFO] [control_loops]: Balance check: -1
+10:29:16 PM [INFO] [control_loops]: Balance check: -1
+10:29:19 PM [INFO] [control_loops]: Balance check: -1
+10:29:22 PM [INFO] [control_loops]: Balance check: 3352
+10:29:24 PM [INFO] [control_loops]: Have waited for 11 minutes...
+10:30:24 PM [INFO] [control_loops]: Balance check: 3352
+10:30:27 PM [INFO] [control_loops]: Have waited for 12 minutes...
+10:31:27 PM [INFO] [control_loops]: Balance check: 3352
+10:31:30 PM [INFO] [control_loops]: Have waited for 13 minutes...
+10:32:30 PM [INFO] [control_loops]: Balance check: 3352
+10:32:32 PM [INFO] [control_loops]: Have waited for 14 minutes...
+10:33:32 PM [INFO] [control_loops]: Balance check: 3352
+10:33:35 PM [INFO] [control_loops]: Have waited for 15 minutes...
+10:34:35 PM [INFO] [control_loops]: Balance check: 3352
+10:34:38 PM [INFO] [control_loops]: Have waited for 16 minutes...
+10:35:38 PM [INFO] [control_loops]: Balance check: 3352
+10:35:41 PM [INFO] [control_loops]: Have waited for 17 minutes...
+10:36:41 PM [INFO] [control_loops]: Balance check: 3352
+10:36:43 PM [INFO] [control_loops]: Have waited for 18 minutes...
+10:37:43 PM [INFO] [control_loops]: Balance check: 3352
+10:37:46 PM [INFO] [control_loops]: Have waited for 19 minutes...
+10:38:46 PM [INFO] [control_loops]: Balance check: 3352
+10:38:51 PM [INFO] [control_loops]: Price did not need to move.
+10:38:51 PM [INFO] [control_loops]: Balance check: -1
+10:38:53 PM [INFO] [control_loops]: Balance check: 73352
+10:38:53 PM [INFO] [control_loops]: It took 18 minute(s) for items to sell.
+10:38:53 PM [INFO] [control_loops]: Failed purchases greater than 5, changing balance...
+10:45:27 PM [INFO] [control_loops]: No buys were attempted for 500 refreshes...
+10:45:27 PM [INFO] [control_loops]: Rolling Avg Buy Time: 2 minute(s)
+10:45:29 PM [INFO] [control_loops]: Balance check: 3297
+10:45:32 PM [INFO] [control_loops]: Have waited for 1 minutes...
+10:46:32 PM [INFO] [control_loops]: Balance check: 3297
+10:46:35 PM [INFO] [control_loops]: Have waited for 2 minutes...
+10:47:35 PM [INFO] [control_loops]: Balance check: 3297
+10:47:37 PM [INFO] [control_loops]: Have waited for 3 minutes...
+10:48:38 PM [INFO] [control_loops]: Balance check: 3297
+10:48:40 PM [INFO] [control_loops]: Have waited for 4 minutes...
+10:49:40 PM [INFO] [control_loops]: Balance check: 3297
+10:49:43 PM [INFO] [control_loops]: Have waited for 5 minutes...
+10:50:43 PM [INFO] [control_loops]: Balance check: 3297
+10:50:46 PM [INFO] [control_loops]: Have waited for 6 minutes...
+10:51:46 PM [INFO] [control_loops]: Balance check: 3297
+10:51:48 PM [INFO] [control_loops]: Have waited for 7 minutes...
+10:52:48 PM [INFO] [control_loops]: Balance check: 3297
+10:52:51 PM [INFO] [control_loops]: Have waited for 8 minutes...
+10:53:51 PM [INFO] [control_loops]: Balance check: 3297
+10:53:54 PM [INFO] [control_loops]: Have waited for 9 minutes...
+10:54:54 PM [INFO] [control_loops]: Balance check: 3297
+10:54:58 PM [INFO] [control_loops]: Price did not need to move.
+10:54:58 PM [INFO] [control_loops]: Balance check: -1
+10:55:01 PM [INFO] [control_loops]: Balance check: -1
+10:55:04 PM [INFO] [control_loops]: Balance check: -1
+10:55:07 PM [INFO] [control_loops]: Balance check: -1
+10:55:09 PM [INFO] [control_loops]: Balance check: -1
+10:55:12 PM [INFO] [control_loops]: Balance check: -1
+10:55:15 PM [INFO] [control_loops]: Balance check: -1
+10:55:18 PM [INFO] [control_loops]: Balance check: 3297
+10:55:20 PM [INFO] [control_loops]: Have waited for 11 minutes...
+10:56:20 PM [INFO] [control_loops]: Balance check: 3297
+10:56:23 PM [INFO] [control_loops]: Have waited for 12 minutes...
+10:57:23 PM [INFO] [control_loops]: Balance check: 3297
+10:57:26 PM [INFO] [control_loops]: Have waited for 13 minutes...
+10:58:26 PM [INFO] [control_loops]: Balance check: 3297
+10:58:29 PM [INFO] [control_loops]: Have waited for 14 minutes...
+10:59:29 PM [INFO] [control_loops]: Balance check: 3297
+10:59:31 PM [INFO] [control_loops]: Have waited for 15 minutes...

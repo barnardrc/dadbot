@@ -156,31 +156,22 @@ class Interact(Screen):
         Interact().move_to_search()
         Interact().market_refresh()
     
-    def cancel_listing(self, amt = 2):
-        # When an item is transferred, all items above move down 1 slot.
-        amt_rdy = 0
-        x_value = self.winx * 0.254
-        for i in range(amt):
-            
-            # Variable y value based on what is sold
-            y_value = (self.winy * 0.495 + 
-                       i * self.winy * 0.0458 - 
-                       amt_rdy * self.winy * 0.0458)
-            
-            # If the pixel was yellow, click the particular box, click an arbitrary
-            # position, then click the "Transfer All Items" button
-            pag.click(x_value, y_value)
-            pag.click(self.winx * 0.5, self.winy * 0.972)
-            pag.move(0, self.winy * -0.347, 0.2)
-            pag.click()
-            amt_rdy += 1
-            pag.move(int(self.winx * -0.053906), 
-                     int(self.winy * -0.0506944), 0.2)
-            pag.click()
-            
-            # Delay between grabbing items - prevents dialogue boxes
-            # from stacking
-            time.sleep(1.8)
+    def cancel_listing(self, location):
+        
+        x_value = location[0]
+        y_value = location[1]
+
+        pag.click(x_value, y_value)
+        pag.click(self.winx * 0.5, self.winy * 0.972)
+        pag.move(0, self.winy * -0.347, 0.2)
+        pag.click()
+        pag.move(int(self.winx * -0.053906), 
+                 int(self.winy * -0.0506944), 0.2)
+        pag.click()
+        
+        # Delay between grabbing items - prevents dialogue boxes
+        # from stacking
+        time.sleep(1.8)
             
 
     def item_transfer(self, isSoldList, maxKeysCollectable = 10):
