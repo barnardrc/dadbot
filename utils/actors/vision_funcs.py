@@ -7,7 +7,9 @@ Created on Tue Nov 19 15:20:33 2024
 from PIL import Image
 from utils.dependents.dependents import Screen
 from utils.logger import logger as log
+import os
 import pathlib
+import shutil
 import mss
 import pytesseract as pyt
 import cv2
@@ -16,8 +18,11 @@ import pyscreeze
 import pyautogui as pag
 
 pyscreeze.USE_IMAGE_NOT_FOUND_EXCEPTION = False
-pyt.pytesseract.tesseract_cmd = r'C:\Users\barna\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
-MON_NUM = 2
+tesseract_cmd = os.environ.get("TESSERACT_CMD") or shutil.which("tesseract")
+if tesseract_cmd:
+    pyt.pytesseract.tesseract_cmd = tesseract_cmd
+
+MON_NUM = int(os.environ.get("DADBOT_MONITOR", "2"))
 
 class DataCapture(Screen):
     def __init__(self):

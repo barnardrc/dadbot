@@ -10,6 +10,7 @@ from logging.handlers import RotatingFileHandler
 import time
 import re
 import os
+from pathlib import Path
 import colorlog
 
 # Custom logger level
@@ -103,5 +104,8 @@ def configure_logger(
     return logger
 
 # Initialize the logger for the application
-logger = configure_logger(log_save_path=r'C:\Users\barna\Documents\dadbot\logs')
+default_log_dir = Path(__file__).resolve().parents[1] / "logs"
+logger = configure_logger(
+    log_save_path=os.environ.get("DADBOT_LOG_DIR", str(default_log_dir))
+)
 
