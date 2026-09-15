@@ -1,89 +1,109 @@
-# Dark and Darker Automated Trading Bot
+# Dark and Darker market automation experiment
 
-![Animated demo of the trading bot in action](assets/demo.gif)
+![Animated demonstration](assets/demo.gif)
 
-An automated trading bot for the game Dark and Darker that uses computer vision (pytesseract) and screen automation to identify and execute profitable trades in the in-game market.
+A Windows-focused computer-vision experiment that reads the **Dark and
+Darker** in-game marketplace with OCR, evaluates candidate trades, and uses
+desktop automation to exercise a buy/relist workflow.
 
-The bot handles the entire trading life cycle - Price calculations, sanity checking, inventory management, balance verification, item listing, and item relisting.
+The project demonstrates screen-region calibration, OCR preprocessing,
+template matching, market calculations, stateful control loops, a Tkinter UI,
+and structured logging.
 
-***
+## Important notice
 
-## ⚠️ EXTREME WARNING: USE AT YOUR OWN RISK ⚠️
+This project is unofficial, is not endorsed by the game’s developer, and was
+built for educational experimentation. Automated interaction may violate the
+game’s Terms of Service and can lead to account sanctions. Review the current
+rules yourself and do not use this project against a live service unless you
+have explicit permission.
 
-**This project is for educational purposes only. Using this bot is (probably) a direct violation of the Dark and Darker Terms of Service and will likely result in a permanent ban of your game account.** The author of this software is not responsible for any disciplinary action taken against you. You assume all risks by downloading, running, or using this code.
+The repository is not presented as a production trading tool. Its screen
+coordinates and image templates are sensitive to game, resolution, UI-scale,
+and marketplace changes.
 
-***
+## How it works
 
-## How It Works
-![Static screenshot of console on startup](assets/console_shot.png)
+1. Capture configured regions of the game window.
+2. Detect item and listing state with template matching.
+3. Read numeric prices through Tesseract OCR.
+4. Compare current prices with external reference data.
+5. Apply profitability, balance, and sanity checks.
+6. Drive the experimental workflow with keyboard and mouse automation.
+7. Record decisions and failures in rotating local logs.
 
-The bot operates as an adaptive trading agent, running through a continuous cycle of analysis and execution.
+![Application UI](assets/ui_shot.png)
 
-1. **Price Benchmarking**: The cycle begins by using a web scraper to gather baseline market data from an external website. This provides a foundation for in-game price decisions.
+## Requirements
 
-2. **Live Market Reading**: It then captures the in-game market screen and uses pytesseract (OCR) to read the current, live prices of items available for trade.
+- Windows with Python 3.11 or 3.12
+- [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki)
+- a supported display layout and manually verified image templates
 
-3. **Profitability & Volatility Analysis**: The bot processes the live data against the benchmark price to identify profitable "buy low, sell high" opportunities. This core step includes a volatility calculation that determines how frequently prices are fluctuating. Based on this, the bot adapts how often it needs to re-calculate its target prices, making it more efficient.
+Install the Python dependencies in a virtual environment:
 
-4. **Pre-Trade Validation**: Before attempting purchases, the bot calculates how many items it can buy and dynamically updates this parameter based on item type.
+```powershell
+py -3.12 -m venv .venv
+.venv\Scripts\python.exe -m pip install --upgrade pip
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
 
-5. **Automated Trading Cycle**: Once a profitable trade is validated, the bot uses pyautogui to simulate mouse and keyboard actions to:
+If `tesseract.exe` is not on `PATH`, set its path for the current PowerShell
+session:
 
-    - Buy Low: Purchase the identified undervalued item.
+```powershell
+$env:TESSERACT_CMD = "C:\Program Files\Tesseract-OCR\tesseract.exe"
+```
 
-    - Sell High: Automatically relist the same item at the ideal sell price calculated in the analysis step.
+The capture code defaults to monitor 2. Override it when needed:
 
-6. **Continuous Loop**: The bot repeats this entire cycle, continuously monitoring the market and adapting its strategy based on the latest data and market volatility.
+```powershell
+$env:DADBOT_MONITOR = "1"
+```
 
-## Features
+Logs default to the repository’s ignored `logs/` directory. Set
+`DADBOT_LOG_DIR` to store them elsewhere.
 
-* **Adaptive Trading Logic**: Features a dynamic volatility calculation to automatically adjust how often it re-evaluates prices, making it efficient in both stable and chaotic markets.
-* **External Price Benchmarking**: Uses a web scraper to pull baseline market data, providing a strategic foundation for its in-game trading decisions.
-* **Real-time Data Extraction**: Reads the live market directly from the screen using pytesseract (OCR) for up-to-the-second analysis.
-* **End-to-End Automation**: Manages the entire trading lifecycle—from identifying an opportunity and validating the user's balance to purchasing the item and automatically relisting it for profit.
-* **Smart Listing Management**: Automatically cancels and relists posted items to adapt to market price changes, ensuring listings remain competitive.
-* **Configurable & Resilient**: Built with pre-trade sanity checks to ensure it trades safely and effectively.
-* **Detailed Logging**: Keeps a comprehensive record of all actions, calculations, and errors in a dedicated log file, allowing for easy debugging and performance tracking.
+## Run
 
-![Screeshot of Log](assets/log.png)
+```powershell
+.venv\Scripts\python.exe dadbot.py
+```
 
-## Installation & Setup [UNDER CONSTRUCTION]
+The script now launches the Tkinter application. Press `Q` to request a clean
+stop. `Ctrl+T` enables the existing diagnostic trigger.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/barnardrc/dadbot.git
-    cd dadbot
-    ```
-2.  **Install dependencies [NO REQUIREMENTS.TXT RIGHT NOW]:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Install Tesseract OCR:** You must install Google's Tesseract engine. Follow the instructions for your operating system:
-    * [Windows Installer](https://github.com/UB-Mannheim/tesseract/wiki)
-    * For macOS/Linux, use your package manager (e.g., `sudo apt-get install tesseract-ocr` or `brew install tesseract`).
-    * **Important:** You will need to add the path of Tesseract-OCR's executable file in the top of `utils/actors/vision_funcs`
+Before any experiment, inspect the configured items, image templates, screen
+regions, and price-source behavior. Keep a manual stop path available.
 
-4.  **Configure the Bot:** All configurations are currently handled within their respective modules.
-    - `utils/dependents/calc_funcs` for Market and Profit calculation classes.
-    - `utils/control_loops` for primary VariableHandler and Item configuration classes.
+## Repository layout
 
-## Usage
+```text
+dadbot.py             # application entry point
+ui.py                 # Tkinter interface
+utils/actors/         # screen capture, OCR, and input automation
+utils/dependents/     # calculations, persistence, and reference lookups
+utils/ui_utils/       # reusable UI helpers
+assets/               # documentation images
+```
 
-1.  Launch the game and navigate to the trade market.
-2.  Run the main Python script from your terminal:
-    ```bash
-    python main.py
-    ```
-3.  With the UI, select the item you want to trade and click Start. If you want to add a new item, select add item and follow the prompts to initialize a new item.
+## Development checks
 
-![Static screenshot of UI](assets/ui_shot.png)
+The current automated check verifies that every Python file parses:
 
-4.  Monitor the bot's activity by checking the console output or by viewing the detailed logs saved in the `logs/` directory
-5.  To stop the bot, press Q, then press Exit on the UI or close the terminal window.
+```powershell
+python -m compileall -q .
+```
+
+End-to-end tests require a controlled desktop fixture and are not yet included.
+
+## Known limitations
+
+- image templates and screen ratios are tied to a particular UI configuration;
+- external reference pages can change without notice;
+- OCR and desktop input are inherently fallible;
+- there is no safe simulation backend or complete automated test suite yet.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-
+Licensed under the MIT License. See [LICENSE](LICENSE).

@@ -1,0 +1,12 @@
+colorlog
+keyboard
+mss
+numpy
+opencv-python
+Pillow
+psutil
+PyAutoGUI
+pynput
+pyscreeze
+pytesseract
+regex

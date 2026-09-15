@@ -151,4 +151,4 @@ def vision_test():
     control.vision_test()
 
 if __name__ == "__main__":
-    vision_test()
+    main()
